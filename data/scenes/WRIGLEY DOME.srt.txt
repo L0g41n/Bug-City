@@ -3494,7 +3494,7 @@ characters {
       }
     }
     team_id: "Civilians"
-    char_name: "Hanna Uljaken"
+    char_name: "Lt. Hanna Uljaken"
     GeneralTags: "isHannaUljaken"
     GeneralTags: "isNPC"
     pc_spawn_number: -1
