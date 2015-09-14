@@ -1,0 +1,27 @@
+id: "Pure Spirit Leg Stab"
+type: ItemType_Unarmed
+uirep {
+  icon: "icon_spiritmelee"
+  name: "Leg Stab"
+}
+anim_type: AnimType_Null
+coreAttribute: Attribute_Strength
+coreSkill: Skill_CloseCombat
+coreSpecialization: Specialization_CC_Unarmed
+apCost: 1
+baseHPDamage: 1
+baseAPDamage: 0
+rangeModTable: 0
+noiseLevel: 0
+noiseRounds: 0
+modelessAbilities: "Leg Stab"
+affectsEnemy: true
+canTargetActor: true
+fxrep {
+  preActionFxName: ""
+  actionFxName: "BugSpiritMeleeAction"
+  postActionFxName: ""
+  hitReactionFxName: "AcidHitReaction"
+  missReactionFxName: "GenericMissReaction"
+}
+sorting_group: "Critter Powers"

@@ -1,0 +1,49 @@
+id: "Berlin_IdolCreator"
+type: ItemType_ShamanTotem
+uirep {
+  icon: "icon_creatoridol"
+  name: "Creator Idol"
+  description: "Sets all spirits\' under your control breakaway chance to 0% within three tiles of yourself."
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Charisma
+coreSkill: Skill_Conjuring
+forceRating: 1
+apCost: 1
+baseHPDamage: 0
+baseAPDamage: 0
+noiseLevel: 5
+noiseRounds: 1
+modelessAbilities: "Totem Buff"
+affectsFriendly: true
+affectsEnemy: false
+canTargetSelf: true
+canTargetActor: false
+canTargetOccupiedGridPoint: false
+canTargetUnoccupiedGridPoint: false
+isBuff: true
+cooldown: 3
+isMagic: true
+effectDuration: 2
+effectRadius: 3
+fxrep {
+  preActionFxName: "GenericSpellPrepare"
+  actionFxName: "Berlin:CreatorTotemCastAction"
+  postActionFxName: ""
+  hitReactionFxName: "GenericSpellBuffHitReaction"
+  missReactionFxName: "GenericSpellMissReaction"
+}
+activationStatusEffects {
+  uirep {
+    icon: "icon_creatoridol"
+    name: "Creator: 0% Escape Chance When Within 3 Tiles of Summoner"
+  }
+  stackingCategory: "Escape"
+  statMods {
+    attribute: Attribute_Spirit_Escape_Mod
+    intModValue: -500
+  }
+  is_buff: true
+}
+sorting_group: "Totems"
+damageType: VulnerabilityType_Buff

@@ -1,0 +1,100 @@
+prefab_name: "Seattle:Core/HumanFemale"
+character_sheet_id: "Adept_Lv1_HtH"
+character_mod {
+  stats {
+    body: 5
+    quickness: 6
+    strength: 3
+    charisma: 7
+    intelligence: 7
+    willpower: 5
+    essence: 0
+    magic: 6
+    hp: 0
+    ap: 0
+    armor: 7
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 3
+    vision_peripheral_distance: 0
+    vision_cone_distance: 0
+    vision_cone_angle: 0
+  }
+  skills {
+    ranged_combat: 9
+    close_combat: 7
+    throwing_weapons: 9
+    spellcasting: 9
+    decking: 9
+    conjuring: 9
+    spirit_summoning: 9
+    drone_control: 9
+    biotech: 9
+    dodge: 7
+    etiquette_corporate: 1
+    etiquette_security: 1
+    etiquette_gang: 1
+    etiquette_socialite: 1
+    chi_casting: 5
+    etiquette_shadowrunner: 1
+    etiquette_street: 1
+    etiquette_academic: 1
+    cyberware_affinity: 9
+  }
+  specializations {
+    pistol: 9
+    rifle: 9
+    shotgun: 9
+    smg: 9
+    edged: 9
+    unarmed: 7
+    spirit_control: 9
+    esp_control: 9
+    drone_combat: 9
+  }
+  vulnerabilities {
+  }
+}
+equipment {
+  prefab_name: "Sword 3 Laser Axe"
+}
+equipment {
+  prefab_name: "ClassA_Support_Sundowner (Base)"
+}
+equipment {
+  prefab_name: "Spell Lightning Bolt 3"
+}
+equipment {
+  prefab_name: "Mana Fist"
+}
+equipment {
+  prefab_name: "TotemCobra"
+}
+equipment {
+  prefab_name: "Spell Haste 4"
+}
+equipment {
+  prefab_name: "NPC_HK_Tech_RiggerTrench"
+}
+equipment {
+  prefab_name: "CyberdeckHighlander"
+}
+team_id: "Shadowrunners"
+char_name: "Beta Tester"
+GeneralTags: "isBetaTester"
+pc_spawn_number: -1
+hiring_type: HiringType_None
+cyberware_left_arm: "(Arm) Shiawase Magnet Arm"
+portrait {
+  filename: "pc_humanfemale_08b_whitehair"
+}
+portrait_code_override: "s4h19c10"
+karma: 1215
+hiring_cost_override: 1000
+first_name: "Beta"
+last_name: "Tester"
+cyberware_head: "(Head) Datajack"

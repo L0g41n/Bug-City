@@ -1,0 +1,4 @@
+unique_id: "Bug Spitter Powers"
+equipment {
+  prefab_name: "Venom Spit"
+}

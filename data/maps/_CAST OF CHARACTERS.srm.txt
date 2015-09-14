@@ -1150,3 +1150,23 @@ props {
   }
   lod: 0
 }
+props {
+  name: "tenements_decor_cardboardBox02"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  displayName: "Stash"
+  idRef {
+    id: "55f6e435323137501a003d70"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_ItemPickup
+    interaction_info_text: "Stash"
+  }
+  lod: 0
+}

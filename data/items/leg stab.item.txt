@@ -1,0 +1,40 @@
+id: "Leg Stab"
+type: ItemType_Unarmed
+uirep {
+  icon: "icon_spiritmelee"
+  name: "Leg Stab"
+}
+anim_type: AnimType_Null
+coreAttribute: Attribute_Strength
+coreSkill: Skill_CloseCombat
+coreSpecialization: Specialization_CC_Unarmed
+apCost: 1
+baseHPDamage: 8
+baseAPDamage: 0
+rangeModTable: 0
+noiseLevel: 0
+noiseRounds: 0
+modelessAbilities: "Leg Stab"
+affectsEnemy: true
+canTargetActor: true
+effectDuration: 3
+fxrep {
+  preActionFxName: ""
+  actionFxName: "BugSpitAction"
+  postActionFxName: ""
+  hitReactionFxName: "AcidHitReaction"
+  missReactionFxName: "GenericMissReaction"
+}
+activationStatusEffects {
+  uirep {
+    icon: "icon_spiritmelee"
+    name: "Numbing Poison: AP -1"
+  }
+  stackingCategory: "AP"
+  statMods {
+    attribute: Attribute_AP_Effect
+    intModValue: -1
+  }
+  fxScript: "AcidVenomStatus"
+}
+sorting_group: "Critter Powers"

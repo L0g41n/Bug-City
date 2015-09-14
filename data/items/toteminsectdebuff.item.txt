@@ -1,0 +1,68 @@
+id: "TotemInsectDebuff"
+type: ItemType_ShamanTotem
+uirep {
+  icon: "icon_coyotetotem"
+  name: "Insect Debuff"
+  description: "The Insect Queen sucks your life"
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Charisma
+coreSkill: Skill_Conjuring
+forceRating: 10
+apCost: 1
+baseHPDamage: 5
+baseAPDamage: 0
+rangeModTable: 10
+rangeModTable: 9
+rangeModTable: 8
+rangeModTable: 7
+rangeModTable: 6
+rangeModTable: 5
+rangeModTable: 4
+rangeModTable: 3
+rangeModTable: 2
+rangeModTable: 1
+rangeModTable: 0
+rangeModTable: 0
+rangeModTable: -1
+rangeModTable: -2
+rangeModTable: -3
+rangeModTable: -4
+rangeModTable: -5
+rangeModTable: -6
+rangeModTable: -7
+rangeModTable: -8
+effectModTable: 1
+effectModTable: 1
+effectModTable: 1
+effectModTable: 1
+effectModTable: 1
+noiseLevel: 5
+noiseRounds: 1
+modelessAbilities: "Totem DeBuff"
+affectsFriendly: false
+affectsEnemy: true
+canTargetSelf: true
+canTargetActor: false
+canTargetOccupiedGridPoint: false
+canTargetUnoccupiedGridPoint: false
+isDebuff: true
+cooldown: 1
+isMagic: true
+effectDuration: 2
+fxrep {
+  preActionFxName: "GenericSpellPrepare"
+  actionFxName: "InsectTotemCastAction"
+  postActionFxName: ""
+  hitReactionFxName: "GenericSpellDeBuffHitReaction"
+  missReactionFxName: ""
+}
+activationStatusEffects {
+  uirep {
+    icon: "icon_coyotetotem"
+    name: "Insect Totem"
+  }
+  stackingCategory: "Bug"
+  statusConditions: Condition_BossTotemDebuff
+}
+sorting_group: "Totems"

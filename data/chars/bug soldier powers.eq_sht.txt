@@ -1,0 +1,4 @@
+unique_id: "Bug Soldier Powers"
+equipment {
+  prefab_name: "Leg Stab"
+}

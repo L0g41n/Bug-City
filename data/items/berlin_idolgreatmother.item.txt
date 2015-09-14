@@ -1,0 +1,41 @@
+id: "Berlin_IdolGreatMother"
+type: ItemType_ShamanTotem
+uirep {
+  icon: "icon_greatmotheridol"
+  name: "Great Mother Idol"
+  description: "The power of the Great Mother heals all friends within 3 tiles of their most recent wound."
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Charisma
+coreSkill: Skill_Conjuring
+forceRating: 1
+apCost: 1
+baseHPDamage: 10
+baseAPDamage: 0
+rangeModTable: 1
+rangeModTable: 1
+rangeModTable: 1
+effectModTable: 1
+effectModTable: 1
+effectModTable: 1
+noiseLevel: 5
+noiseRounds: 1
+modelessAbilities: "Heal Wound Totem"
+affectsFriendly: true
+affectsEnemy: false
+canTargetSelf: true
+canTargetActor: false
+canTargetOccupiedGridPoint: false
+canTargetUnoccupiedGridPoint: false
+isBuff: true
+cooldown: 3
+isMagic: true
+fxrep {
+  preActionFxName: "GenericSpellPrepare"
+  actionFxName: "Berlin:GreatMotherTotemCastAction"
+  postActionFxName: ""
+  hitReactionFxName: "HealSpellHitReaction"
+  missReactionFxName: "GenericSpellMissReaction"
+}
+sorting_group: "Totems"
+damageType: VulnerabilityType_Heal

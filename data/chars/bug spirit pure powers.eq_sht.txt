@@ -1,0 +1,7 @@
+unique_id: "Bug Spirit Pure Powers"
+equipment {
+  prefab_name: "Pure Spirit Leg Stab"
+}
+equipment {
+  prefab_name: "Pure Spirit Spit"
+}

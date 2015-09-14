@@ -1,0 +1,31 @@
+id: "Bound Bug Pure Spirit 1"
+type: ItemType_Consumable
+uirep {
+  icon: "icon_airspirit"
+  name: "Summon Bug Spirit"
+  description: "The spriit that leves a dead bug, and looks for a new host to take over."
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Magic
+coreSkill: Skill_SpiritSummoning
+forceRating: 1
+apCost: 0
+rangeModTable: 1
+rangeModTable: 1
+modelessAbilities: "SummonSpirit"
+affectsFriendly: true
+canTargetSelf: true
+canTargetUnoccupiedGridPoint: true
+isMagic: true
+fxrep {
+  preActionFxName: ""
+  actionFxName: "BoundSpiritSummonAction"
+  postActionFxName: ""
+  hitReactionFxName: "GenericEmptyReaction"
+  missReactionFxName: "GunMissReaction"
+}
+character_sheet_id: "Bug Spirit Pure"
+equipment_sheet_id: "Bug Spirit Pure Powers"
+character_prefab_id: "BugPureSpirit"
+character_ui_name: "Pure Insect Spirit"
+sorting_group: "Bound Spirits"

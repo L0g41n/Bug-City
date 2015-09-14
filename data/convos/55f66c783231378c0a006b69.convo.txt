@@ -1,0 +1,20 @@
+idRef {
+  id: "55f66c783231378c0a006b69"
+}
+ui_name: "GLOBAL - NPC - Hanna Uljaken"
+nodes {
+  idRef {
+    id: "55f66d1b323137a00a00073d"
+  }
+  index: 0
+  text: "Greetings, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "55f66c783231378c0a006b69:55f66ca33231378c0a006b6f"
+  }
+}
+default_speaker_id: "55f669343231378c0a006b62"
+persistent_conversation: true

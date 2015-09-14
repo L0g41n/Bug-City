@@ -1,0 +1,54 @@
+id: "Berlin_IdolWildHuntsman"
+type: ItemType_ShamanTotem
+uirep {
+  icon: "icon_wildhuntsmanidol"
+  name: "Wild Huntsman Idol"
+  description: "The Huntsman grants all friends within three tiles DMG +4, but reduces accuracy by -10%. Lasts 3 RNDS."
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Charisma
+coreSkill: Skill_Conjuring
+forceRating: 1
+apCost: 1
+baseHPDamage: 0
+baseAPDamage: 0
+noiseLevel: 5
+noiseRounds: 1
+modelessAbilities: "Totem Buff"
+affectsFriendly: true
+affectsEnemy: false
+canTargetSelf: true
+canTargetActor: false
+canTargetOccupiedGridPoint: false
+canTargetUnoccupiedGridPoint: false
+isBuff: true
+cooldown: 1
+isMagic: true
+effectDuration: 3
+effectRadius: 3
+fxrep {
+  preActionFxName: "GenericSpellPrepare"
+  actionFxName: "Berlin:WildHuntsmanTotemCastAction"
+  postActionFxName: ""
+  hitReactionFxName: "GenericSpellDeBuffHitReaction"
+  missReactionFxName: "GenericSpellMissReaction"
+}
+activationStatusEffects {
+  uirep {
+    icon: "icon_wildhuntsmanidol"
+    name: "Wild Huntsman: DMG +4, Accuracy -10%"
+  }
+  stackingCategory: "Huntsman"
+  statMods {
+    attribute: Attribute_Damage_Mod
+    intModValue: 4
+  }
+  statMods {
+    attribute: Attribute_Accuracy_Reduction_Mod
+    intModValue: 10
+  }
+  fxScript: "GenericSpellAOE"
+  is_buff: true
+}
+sorting_group: "Totems"
+damageType: VulnerabilityType_Buff

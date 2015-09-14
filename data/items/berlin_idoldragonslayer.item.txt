@@ -1,0 +1,50 @@
+id: "Berlin_IdolDragonslayer"
+type: ItemType_ShamanTotem
+uirep {
+  icon: "icon_dragonslayeridol"
+  name: "Dragonslayer Idol"
+  description: "The power of the Dragonslayer aids all friends within a three-tile range, with Incoming DMG reduced by 3. Lasts 3 RNDS."
+}
+anim_type: AnimType_Spell
+coreAttribute: Attribute_Charisma
+coreSkill: Skill_Conjuring
+forceRating: 1
+apCost: 1
+baseHPDamage: 0
+baseAPDamage: 0
+noiseLevel: 5
+noiseRounds: 1
+modelessAbilities: "Totem Buff"
+affectsFriendly: true
+affectsEnemy: false
+canTargetSelf: true
+canTargetActor: false
+canTargetOccupiedGridPoint: false
+canTargetUnoccupiedGridPoint: false
+isBuff: true
+cooldown: 1
+isMagic: true
+effectDuration: 3
+effectRadius: 3
+fxrep {
+  preActionFxName: "GenericSpellPrepare"
+  actionFxName: "Berlin:DragonslayerTotemCastAction"
+  postActionFxName: ""
+  hitReactionFxName: "GenericSpellBuffHitReaction"
+  missReactionFxName: "GenericSpellMissReaction"
+}
+activationStatusEffects {
+  uirep {
+    icon: "icon_dragonslayeridol"
+    name: "Dragonslayer: Incoming DMG -3"
+  }
+  stackingCategory: "Dragonslayer"
+  statMods {
+    attribute: Attribute_Damage_Reduction_Mod
+    intModValue: 3
+  }
+  fxScript: "GenericSpellAOE"
+  is_buff: true
+}
+sorting_group: "Totems"
+damageType: VulnerabilityType_Buff

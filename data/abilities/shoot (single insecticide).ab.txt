@@ -1,0 +1,47 @@
+id: "Shoot (Single Insecticide)"
+uirep {
+  icon: "icon_banish"
+  name: "Single Shot"
+  description: "Round filled with insecticide."
+}
+anim_action: AnimAction_Attack
+apCostMod: 0
+hpDamageMod: 0
+apDamageMod: 0
+accuracyMod: 68
+prereqStrings: "Item.FLAG.WEAPON_CUR_AMMO > 0"
+damageBucket {
+  successEntries {
+    weight: 0.25
+    value: 2
+  }
+  successEntries {
+    weight: 0.25
+    value: 1.5
+  }
+  successEntries {
+    weight: 0.5
+    value: 1
+  }
+  failureEntries {
+    weight: 1
+    value: 1
+  }
+  failureEntries {
+    weight: 0
+    value: 1
+  }
+}
+attackRatingMod: 0
+offensiveAbility: true
+ammoCost: 1
+damageType: VulnerabilityType_Insecticide
+fxrep {
+  preActionFxName: ""
+  actionFxName: "InsecticideShotgunFireAction"
+  postActionFxName: ""
+  hitReactionFxName: "InsecticideShotgunHitReaction"
+  missReactionFxName: "InsecticideShotgunMissReaction"
+}
+toHitFunction: "actorWeaponAttackToHit"
+damageFunction: "weaponDamage"

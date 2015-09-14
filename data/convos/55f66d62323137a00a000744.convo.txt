@@ -1,0 +1,19 @@
+idRef {
+  id: "55f66d62323137a00a000744"
+}
+ui_name: "GLOBAL - NPC - Cpt Anne Ravenheart"
+nodes {
+  idRef {
+    id: "55f66d96323137a00a000750"
+  }
+  index: 0
+  text: "Hello, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "55f66d62323137a00a000744:55f66d62323137a00a000748"
+  }
+}
+default_speaker_id: "55f66a613231378c0a006b64"

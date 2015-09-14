@@ -1,4 +1,21 @@
 id: ""
+variables {
+  name: "_DEBUGGER"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "_DEBUGGER"
+      typeName: "bool"
+    }
+  }
+}
+startScene: "WRIGLEY DOME"
+allowCharacterGen: true
+resalePercent: 75
+upgradeToThreeApLevel: 117
+show_conversation_triggering_actor: true
 character_roster {
   roster_entries {
     reference_id: "berlinrunner_lv1_luckystrike"
