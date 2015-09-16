@@ -1,0 +1,49 @@
+id: "subway-quiet"
+ambience {
+  sound_clip: "subwayLoop"
+  volume: 0.5
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "LoadingBump"
+  volume: 0.5
+  frequency: 0.05
+  delay: 30
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Tone"
+  volume: 1
+  frequency: 0.5
+  delay: 8
+  random_delay: 6
+  layer: 3
+}
+ambience {
+  sound_clip: "SubwayArrive"
+  volume: 1
+  frequency: 0.3
+  delay: 10
+  random_delay: 30
+  layer: 1
+}
+ambience {
+  sound_clip: "SubwayDepart"
+  volume: 1
+  frequency: 0.3
+  delay: 30
+  random_delay: 0
+  layer: 2
+}
+ambience {
+  sound_clip: "Subway"
+  volume: 1
+  frequency: 0.3
+  delay: 30
+  random_delay: 15
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_subway"

@@ -1,0 +1,25 @@
+id: "bc-estate-quiet"
+ambience {
+  sound_clip: "estateLoop"
+  volume: 0.1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Bleep"
+  volume: 0.04
+  frequency: 0.8
+  delay: 18
+  random_delay: 15
+  layer: 1
+}
+ambience {
+  sound_clip: "Tone"
+  volume: 0.02
+  frequency: 0.2
+  delay: 30
+  random_delay: 20
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_estate"

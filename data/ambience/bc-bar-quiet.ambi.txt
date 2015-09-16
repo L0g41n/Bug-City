@@ -1,0 +1,25 @@
+id: "bc-bar-quiet"
+ambience {
+  sound_clip: "BrothelLoop-Int"
+  volume: 0.02
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Bar"
+  volume: 0.075
+  frequency: 0.9
+  delay: 15
+  random_delay: 7
+  layer: 1
+}
+ambience {
+  sound_clip: "ChairSlide"
+  volume: 0.08
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_bar"

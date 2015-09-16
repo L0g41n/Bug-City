@@ -1,0 +1,52 @@
+id: "museum"
+ambience {
+  sound_clip: "flyby"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.1
+  frequency: 0.2
+  layer: 1
+}
+ambience {
+  sound_clip: "footsteps"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.1
+  frequency: 0.2
+  delay: 30
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "loadsound1"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.05
+  frequency: 0.1
+  delay: 20
+  random_delay: 20
+  layer: 1
+}
+ambience {
+  sound_clip: "loadsound2"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "insiderainloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "museumloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_museum"

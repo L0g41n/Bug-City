@@ -1,0 +1,33 @@
+id: "safehouse"
+ambience {
+  sound_clip: "safehouseloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "creak"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "noise"
+  volume: 0.6
+  frequency: 0.1
+  delay: 20
+  random_delay: 15
+  layer: 1
+}
+ambience {
+  sound_clip: "water"
+  volume: 0.6
+  frequency: 0.1
+  delay: 27
+  random_delay: 4
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_safehouse"

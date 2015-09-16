@@ -1,0 +1,20 @@
+idRef {
+  id: "55f780d8323137680f005d00"
+}
+ui_name: "GLOBAL - NPC - SeeksTheMoon"
+nodes {
+  idRef {
+    id: "55f780fa323137680f005d08"
+  }
+  index: 0
+  text: "Greetings, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "55f780d8323137680f005d00:55f780d8323137680f005d04"
+  }
+}
+default_speaker_id: "55f7798e323137282a005d67"
+persistent_conversation: true

@@ -1,0 +1,9 @@
+id: "courtyard"
+ambience {
+  sound_clip: "courtyardambience"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+audio_bundles: "hongkong:ambient_courtyard"

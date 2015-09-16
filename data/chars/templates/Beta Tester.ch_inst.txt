@@ -78,10 +78,10 @@ equipment {
   prefab_name: "Spell Haste 4"
 }
 equipment {
-  prefab_name: "NPC_HK_Tech_RiggerTrench"
+  prefab_name: "CyberdeckHighlander"
 }
 equipment {
-  prefab_name: "CyberdeckHighlander"
+  prefab_name: "NPC_HK_Combat_SecureTrench"
 }
 team_id: "Shadowrunners"
 char_name: "Beta Tester"

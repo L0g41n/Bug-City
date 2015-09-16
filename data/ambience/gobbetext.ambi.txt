@@ -1,0 +1,48 @@
+id: "gobbetext"
+ambience {
+  sound_clip: "water"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "seagulls"
+  volume: 1
+  frequency: 0.1
+  delay: 5
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "debris"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "boat"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "oceanloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "rainwindloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 3
+}
+audio_bundles: "HongKong:ambient_gobbet"

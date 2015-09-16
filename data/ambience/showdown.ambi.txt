@@ -1,0 +1,48 @@
+id: "showdown"
+ambience {
+  sound_clip: "showdownloop"
+  volume: 0.7
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "yell"
+  volume: 1
+  frequency: 0.5
+  delay: 10
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "creature"
+  volume: 0.8
+  frequency: 0.4
+  delay: 24
+  random_delay: 8
+  layer: 2
+}
+ambience {
+  sound_clip: "gun"
+  volume: 0.7
+  frequency: 0.5
+  delay: 7
+  random_delay: 7
+  layer: 1
+}
+ambience {
+  sound_clip: "explosion"
+  volume: 0.9
+  frequency: 0.5
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "rainloop"
+  volume: 0.7
+  frequency: 1
+  looping: true
+  layer: 3
+}
+audio_bundles: "hongkong:ambient_showdown"

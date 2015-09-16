@@ -1,0 +1,160 @@
+id: "hubexterior-day"
+ambience {
+  sound_clip: "dogbark"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "driveby"
+  volume: 1
+  frequency: 0.05
+  delay: 30
+  random_delay: 50
+  layer: 1
+}
+ambience {
+  sound_clip: "heliflyby"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "passersbydistant"
+  volume: 0.6
+  frequency: 0.05
+  delay: 20
+  random_delay: 40
+  layer: 1
+}
+ambience {
+  sound_clip: "seagulls"
+  volume: 1
+  frequency: 0.1
+  delay: 5
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "shiphorn1"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "shiphorn2"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 12
+  layer: 1
+}
+ambience {
+  sound_clip: "alarm"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "cat"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "computer"
+  volume: 1
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "crowd"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "debris"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "doorclose"
+  volume: 1
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "flyby"
+  volume: 1
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "hubloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "rainloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 3
+}
+ambience {
+  sound_clip: "machine"
+  volume: 1
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "machineoff"
+  volume: 1
+  frequency: 0.05
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "music"
+  volume: 1
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+ambience {
+  sound_clip: "shiptakeoff"
+  volume: 1
+  frequency: 0.05
+  delay: 10
+  random_delay: 5
+  layer: 2
+}
+audio_bundles: "HongKong:ambient_hubexterior"

@@ -1,0 +1,72 @@
+id: "grendel"
+ambience {
+  sound_clip: "alarm"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "dogbark"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 8
+  layer: 2
+}
+ambience {
+  sound_clip: "computerbeep"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "cat"
+  volume: 1
+  frequency: 0.1
+  delay: 40
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "crowdrun"
+  volume: 0.6
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "debris"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "pubnoise"
+  volume: 1
+  frequency: 0.05
+  delay: 30
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "crowdloop"
+  volume: 0.4
+  frequency: 1
+  looping: true
+  layer: 1
+}
+ambience {
+  sound_clip: "rainloop"
+  volume: 0.8
+  frequency: 1
+  looping: true
+  layer: 0
+}
+audio_bundles: "HongKong:ambient_grendel"

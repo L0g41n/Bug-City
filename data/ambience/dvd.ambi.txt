@@ -1,0 +1,17 @@
+id: "DVD"
+ambience {
+  sound_clip: "DVD_Loop"
+  volume: 0.2
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Static"
+  volume: 0.5
+  frequency: 1
+  delay: 20
+  random_delay: 17
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_DVD"

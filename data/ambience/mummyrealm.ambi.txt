@@ -1,0 +1,25 @@
+id: "mummyrealm"
+ambience {
+  sound_clip: "mummyrealmloop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Foley"
+  volume: 1
+  frequency: 0.3
+  delay: 40
+  random_delay: 40
+  layer: 1
+}
+ambience {
+  sound_clip: "Fear"
+  volume: 0.1
+  frequency: 0.1
+  delay: 40
+  random_delay: 40
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_mummyrealm"

@@ -1,0 +1,55 @@
+id: "sewer-quiet"
+ambience {
+  sound_clip: "sewerLoop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "BuzzLights"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.2
+  frequency: 0.5
+  delay: 30
+  random_delay: 20
+  layer: 1
+}
+ambience {
+  sound_clip: "DripWater"
+  volume: 1
+  frequency: 0.5
+  delay: 35
+  random_delay: 15
+  layer: 1
+}
+ambience {
+  sound_clip: "Rat"
+  volume: 1
+  frequency: 0.5
+  delay: 10
+  random_delay: 15
+  layer: 2
+}
+ambience {
+  sound_clip: "WaterDrain"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.2
+  frequency: 0.5
+  delay: 8
+  random_delay: 15
+  layer: 2
+}
+ambience {
+  sound_clip: "Bubbles"
+  volume: 1
+  pitch: 1
+  random_pitch: 0.2
+  frequency: 0.5
+  delay: 8
+  random_delay: 6
+  layer: 3
+}
+audio_bundles: "hongkong:ambient_sewer"

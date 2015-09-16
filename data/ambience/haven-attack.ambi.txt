@@ -1,0 +1,57 @@
+id: "haven-attack"
+ambience {
+  sound_clip: "HavenAttack_Loop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "ColdWind"
+  volume: 0.7
+  frequency: 0.5
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "DistantExplosion"
+  volume: 0.4
+  frequency: 0.125
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "NeonBuzz"
+  volume: 0.4
+  frequency: 0.25
+  delay: 3
+  random_delay: 1
+  layer: 2
+}
+ambience {
+  sound_clip: "Running"
+  volume: 0.7
+  frequency: 0.125
+  delay: 30
+  random_delay: 20
+  layer: 2
+}
+ambience {
+  sound_clip: "DogBark"
+  volume: 0.6
+  frequency: 0.125
+  delay: 18
+  random_delay: 14
+  layer: 2
+}
+ambience {
+  sound_clip: "Garbage"
+  volume: 0.7
+  frequency: 0.5
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_haven"

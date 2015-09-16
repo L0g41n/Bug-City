@@ -1,0 +1,57 @@
+id: "wcunderground"
+ambience {
+  sound_clip: "wcunderground"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "crowd"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "cough"
+  volume: 0.6
+  frequency: 0.1
+  delay: 20
+  random_delay: 15
+  layer: 1
+}
+ambience {
+  sound_clip: "doorclose"
+  volume: 0.6
+  frequency: 0.1
+  delay: 27
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "music"
+  volume: 0.3
+  frequency: 0.05
+  delay: 45
+  random_delay: 20
+  layer: 1
+}
+ambience {
+  sound_clip: "trash"
+  volume: 0.4
+  frequency: 0.2
+  delay: 30
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "water"
+  volume: 0.6
+  frequency: 0.2
+  delay: 30
+  random_delay: 5
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_wcunderground"

@@ -1,0 +1,73 @@
+id: "tenement-quiet"
+ambience {
+  sound_clip: "TenementLoop-Int"
+  volume: 0.4
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Baby"
+  volume: 0
+  frequency: 0
+  delay: 10
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "Gun"
+  volume: 0
+  frequency: 0
+  delay: 10
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "ScreamWeird"
+  volume: 0.4
+  frequency: 0.1
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Door"
+  volume: 0.4
+  frequency: 0.2
+  delay: 7
+  random_delay: 5
+  layer: 1
+}
+ambience {
+  sound_clip: "BuzzLights"
+  volume: 0.6
+  frequency: 0.2
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "NoiseElectric"
+  volume: 0.5
+  frequency: 0.3
+  delay: 5
+  random_delay: 3
+  layer: 1
+}
+ambience {
+  sound_clip: "NoiseWater"
+  volume: 0.25
+  frequency: 0.1
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "WaterDrain"
+  volume: 0.6
+  frequency: 0.1
+  delay: 6
+  random_delay: 4
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_tenement"

@@ -1,0 +1,41 @@
+id: "whistlerblower"
+ambience {
+  sound_clip: "thunder"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 5
+  layer: 1
+}
+ambience {
+  sound_clip: "waves"
+  volume: 1
+  frequency: 0.1
+  delay: 30
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "wind"
+  volume: 1
+  frequency: 0.1
+  delay: 50
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "boat"
+  volume: 1
+  frequency: 0.1
+  delay: 20
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "whistleblowerloop"
+  volume: 0.6
+  frequency: 1
+  looping: true
+  layer: 3
+}
+audio_bundles: "HongKong:ambient_whistleblower"

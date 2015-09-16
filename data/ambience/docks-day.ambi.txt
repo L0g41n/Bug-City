@@ -1,0 +1,48 @@
+id: "docks-day"
+ambience {
+  sound_clip: "DocksLoop-Ext"
+  volume: 0.15
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Wave"
+  volume: 0.15
+  frequency: 1
+  looping: true
+  layer: 1
+}
+ambience {
+  sound_clip: "Buoy"
+  volume: 0.18
+  frequency: 0.03
+  delay: 10
+  random_delay: 8
+  layer: 2
+}
+ambience {
+  sound_clip: "LoadingBump"
+  volume: 0.5
+  frequency: 0.37
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "Seagull"
+  volume: 0.6
+  frequency: 0.4
+  delay: 5
+  random_delay: 3
+  layer: 2
+}
+ambience {
+  sound_clip: "ShipHorn"
+  volume: 0.5
+  frequency: 0.2
+  delay: 5
+  random_delay: 3
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_docks"

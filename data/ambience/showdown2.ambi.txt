@@ -1,0 +1,16 @@
+id: "showdown2"
+ambience {
+  sound_clip: "showdownloop"
+  volume: 0.25
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "rainloop"
+  volume: 0.45
+  frequency: 1
+  looping: true
+  layer: 3
+}
+audio_bundles: "hongkong:ambient_showdown2"

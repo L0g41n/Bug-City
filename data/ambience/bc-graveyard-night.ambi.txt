@@ -1,0 +1,41 @@
+id: "bc-graveyard-night"
+ambience {
+  sound_clip: "GraveyardLoop"
+  volume: 0.1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Creak"
+  volume: 0.03
+  frequency: 0.5
+  delay: 10
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "Creak"
+  volume: 0.01
+  frequency: 0.2
+  delay: 4
+  random_delay: 2
+  layer: 1
+}
+ambience {
+  sound_clip: "Raven"
+  volume: 0.06
+  frequency: 0.15
+  delay: 12
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "Raven"
+  volume: 0.02
+  frequency: 0.15
+  delay: 8
+  random_delay: 4
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_graveyard"

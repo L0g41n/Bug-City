@@ -1,0 +1,25 @@
+id: "shangrilaext"
+ambience {
+  sound_clip: "boat"
+  volume: 1
+  frequency: 0.5
+  delay: 20
+  random_delay: 18
+  layer: 1
+}
+ambience {
+  sound_clip: "noise"
+  volume: 1
+  frequency: 0.5
+  delay: 15
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "exteriorambience"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+audio_bundles: "HongKong:ambient_shangrila"

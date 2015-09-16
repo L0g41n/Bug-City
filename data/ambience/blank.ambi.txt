@@ -1,0 +1,80 @@
+id: "barrens"
+ambience {
+  sound_clip: "BarrensExt"
+  volume: 1
+  start_time: 0
+  start_time: 0.1
+  pitch: 1.2
+  random_pitch: 0.8
+  frequency: 1
+  delay: 3
+  random_delay: 0.1
+  length: 3.2
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Car"
+  volume: 1
+  frequency: 0.5
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "CreatureB"
+  volume: 0.5
+  frequency: 0.125
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Gun"
+  volume: 1
+  frequency: 0.25
+  delay: 3
+  random_delay: 1
+  layer: 1
+}
+ambience {
+  sound_clip: "CreatureD"
+  volume: 0.5
+  frequency: 0.125
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "CarHorn"
+  volume: 1
+  frequency: 0.25
+  delay: 3
+  random_delay: 1
+  layer: 2
+}
+ambience {
+  sound_clip: "CarAlarm"
+  volume: 1
+  frequency: 0.125
+  delay: 12
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "Siren"
+  volume: 1
+  frequency: 0.125
+  delay: 18
+  random_delay: 14
+  layer: 2
+}
+ambience {
+  sound_clip: "Trash"
+  volume: 1
+  frequency: 0.5
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_barrens"

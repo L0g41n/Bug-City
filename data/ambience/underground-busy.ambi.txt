@@ -1,0 +1,41 @@
+id: "underground-quiet"
+ambience {
+  sound_clip: "CreepyLoop-Int"
+  volume: 0.5
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "CreepyTone"
+  volume: 0.5
+  frequency: 0.05
+  delay: 6
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "BugNoise"
+  volume: 0.3
+  frequency: 0.25
+  delay: 8
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "Screech"
+  volume: 0.2
+  frequency: 0.1
+  delay: 10
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "Screech"
+  volume: 0.3
+  frequency: 0.05
+  delay: 12
+  random_delay: 4
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_underground"

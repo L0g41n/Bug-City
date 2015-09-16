@@ -1,0 +1,41 @@
+id: "asylum-quiet"
+ambience {
+  sound_clip: "CreepyLoop-Int"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "DripWater"
+  volume: 0.3
+  frequency: 0.4
+  delay: 6
+  random_delay: 2
+  layer: 1
+}
+ambience {
+  sound_clip: "Mechanical"
+  volume: 0.4
+  frequency: 0.2
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "ScreamAsylum"
+  volume: 0.7
+  frequency: 0.2
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Static"
+  volume: 0.6
+  frequency: 0.2
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_asylum"

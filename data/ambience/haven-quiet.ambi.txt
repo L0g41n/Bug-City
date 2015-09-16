@@ -1,0 +1,136 @@
+id: "haven-quiet"
+ambience {
+  sound_clip: "Haven_Loop"
+  volume: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "BicycleBy"
+  volume: 0.5
+  frequency: 0.1
+  delay: 10
+  random_delay: 5
+  layer: 1
+}
+ambience {
+  sound_clip: "ColdWind"
+  volume: 0.7
+  frequency: 0.2
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "DogBark"
+  volume: 0.3
+  frequency: 0.2
+  delay: 13
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "DoorOpenClose"
+  volume: 0.3
+  frequency: 0.1
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "Footsteps"
+  volume: 1
+  frequency: 0.1
+  delay: 7
+  random_delay: 5
+  layer: 1
+}
+ambience {
+  sound_clip: "PolizeiSirene"
+  volume: 0.8
+  frequency: 0.2
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "Garbage"
+  volume: 0.7
+  frequency: 0.1
+  delay: 12
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "Hydroponics"
+  volume: 0.3
+  frequency: 0.1
+  delay: 18
+  random_delay: 14
+  layer: 2
+}
+ambience {
+  sound_clip: "MarketCrier"
+  volume: 0.3
+  frequency: 0.1
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "NeonBuzz"
+  volume: 0.6
+  frequency: 0.25
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "SubwayArrive"
+  volume: 0.3
+  frequency: 0.05
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "SubwayDepart"
+  volume: 0.3
+  frequency: 0.05
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "TurkishMusic"
+  volume: 0.3
+  frequency: 0.1
+  delay: 24
+  random_delay: 20
+  layer: 2
+}
+ambience {
+  sound_clip: "TurkishMusic"
+  volume: 0.1
+  frequency: 0.1
+  delay: 24
+  random_delay: 15
+  layer: 2
+}
+ambience {
+  sound_clip: "Whistling"
+  volume: 0.2
+  frequency: 0.05
+  delay: 80
+  random_delay: 40
+  layer: 2
+}
+ambience {
+  sound_clip: "WindChimes"
+  volume: 0.2
+  frequency: 0.1
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_haven"

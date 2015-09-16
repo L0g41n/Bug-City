@@ -1,0 +1,41 @@
+id: "sewer-busy"
+ambience {
+  sound_clip: "sewerLoop"
+  volume: 0.7
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "BuzzLights"
+  volume: 0.6
+  frequency: 0.25
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "DripWater"
+  volume: 0.5
+  frequency: 0.5
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "WaterDrain"
+  volume: 0.5
+  frequency: 0.3
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+ambience {
+  sound_clip: "Bubbles"
+  volume: 1
+  frequency: 0.4
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_sewer"

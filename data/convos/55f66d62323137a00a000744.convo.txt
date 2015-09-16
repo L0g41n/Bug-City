@@ -17,3 +17,4 @@ roots {
   }
 }
 default_speaker_id: "55f66a613231378c0a006b64"
+persistent_conversation: true

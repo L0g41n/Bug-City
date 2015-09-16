@@ -1,0 +1,9 @@
+id: "warehouse-quiet"
+ambience {
+  sound_clip: "WareHouseLoop-Int"
+  volume: 0.9
+  frequency: 1
+  looping: true
+  layer: 0
+}
+audio_bundles: "hongkong:ambient_warehouse"

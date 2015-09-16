@@ -1,0 +1,41 @@
+id: "bc-morgue-quiet"
+ambience {
+  sound_clip: "MorgueLoop-Int"
+  volume: 0.02
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Mechanical"
+  volume: 0.04
+  frequency: 0.3
+  delay: 12
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "Bleep"
+  volume: 0.1
+  frequency: 0.35
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "BuzzLights"
+  volume: 0.04
+  frequency: 0.2
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Phone"
+  volume: 0.1
+  frequency: 0.15
+  delay: 10
+  random_delay: 3
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_morgue"

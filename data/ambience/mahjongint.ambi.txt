@@ -1,0 +1,25 @@
+id: "mahjongint"
+ambience {
+  sound_clip: "noise"
+  volume: 1
+  frequency: 0.5
+  delay: 3
+  random_delay: 4
+  layer: 1
+}
+ambience {
+  sound_clip: "mahjongint"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "mahjong"
+  volume: 1
+  frequency: 0.5
+  delay: 3
+  random_delay: 3
+  layer: 1
+}
+audio_bundles: "HongKong:ambient_mahjongint"

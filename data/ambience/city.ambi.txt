@@ -1,0 +1,9 @@
+id: "whistlerblower"
+ambience {
+  sound_clip: "cityloop"
+  volume: 0.7
+  frequency: 1
+  looping: true
+  layer: 1
+}
+audio_bundles: "HongKong:ambient_city"

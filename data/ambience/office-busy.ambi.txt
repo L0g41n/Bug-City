@@ -1,0 +1,57 @@
+id: "office-busy"
+ambience {
+  sound_clip: "OfficeLoop-Int"
+  volume: 0.3
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "BuzzElectric"
+  volume: 0.2
+  frequency: 0.15
+  delay: 14
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "Door"
+  volume: 0.4
+  frequency: 0.25
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "ElevatorDing"
+  volume: 0.15
+  frequency: 0
+  delay: 12
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "Phone"
+  volume: 0.4
+  frequency: 0.2
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Printer"
+  volume: 0.3
+  frequency: 0.1
+  delay: 8
+  random_delay: 6
+  layer: 1
+}
+ambience {
+  sound_clip: "Typing"
+  volume: 0.6
+  frequency: 0.3
+  delay: 4
+  random_delay: 2
+  layer: 1
+}
+audio_bundles: "hongkong:ambient_office"

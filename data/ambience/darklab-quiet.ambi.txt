@@ -1,0 +1,65 @@
+id: "darkLab-quiet"
+ambience {
+  sound_clip: "darkLabLoop"
+  volume: 0.2
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Centrifuge"
+  volume: 0.1
+  frequency: 0.2
+  delay: 30
+  random_delay: 25
+  layer: 1
+}
+ambience {
+  sound_clip: "EvilChant"
+  volume: 0.15
+  frequency: 0
+  delay: 12
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "Mechanical"
+  volume: 0.2
+  frequency: 0.6
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "MagicLabEquipment"
+  volume: 0.05
+  frequency: 0.2
+  delay: 15
+  random_delay: 10
+  layer: 1
+}
+ambience {
+  sound_clip: "ScreamAsylum"
+  volume: 0.3
+  frequency: 0
+  delay: 12
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "Zap"
+  volume: 0.3
+  frequency: 0.3
+  delay: 4
+  random_delay: 2
+  layer: 2
+}
+ambience {
+  sound_clip: "Bleep"
+  volume: 0.1
+  frequency: 0.7
+  delay: 10
+  random_delay: 8
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_darkLab"

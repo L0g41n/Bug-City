@@ -1,0 +1,41 @@
+id: "estate-busy"
+ambience {
+  sound_clip: "estateLoop"
+  volume: 0.7
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "Bleep"
+  volume: 0.6
+  frequency: 0.8
+  delay: 30
+  random_delay: 25
+  layer: 1
+}
+ambience {
+  sound_clip: "Tone"
+  volume: 0.5
+  frequency: 0.2
+  delay: 24
+  random_delay: 20
+  layer: 1
+}
+ambience {
+  sound_clip: "Bleep"
+  volume: 0.3
+  frequency: 0.5
+  delay: 10
+  random_delay: 8
+  layer: 2
+}
+ambience {
+  sound_clip: "Tone"
+  volume: 0.3
+  frequency: 0.5
+  delay: 14
+  random_delay: 10
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_estate"

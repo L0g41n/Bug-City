@@ -1,0 +1,49 @@
+id: "slums-busy"
+ambience {
+  sound_clip: "slumsLoop"
+  volume: 0.4
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "BuzzLights"
+  volume: 1
+  frequency: 0.4
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "Door"
+  volume: 0.8
+  frequency: 0.3
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "DoorOpenClose"
+  volume: 0.5
+  frequency: 0.3
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "ScreamWeird"
+  volume: 0.7
+  frequency: 0.4
+  delay: 30
+  random_delay: 20
+  layer: 2
+}
+ambience {
+  sound_clip: "WaterDrain"
+  volume: 0.8
+  frequency: 0.6
+  delay: 30
+  random_delay: 15
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_slums"

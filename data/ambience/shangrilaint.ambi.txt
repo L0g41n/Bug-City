@@ -1,0 +1,17 @@
+id: "shangrilaint"
+ambience {
+  sound_clip: "noise"
+  volume: 1
+  frequency: 0.5
+  delay: 15
+  random_delay: 10
+  layer: 2
+}
+ambience {
+  sound_clip: "interiorambience"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+audio_bundles: "HongKong:ambient_shangrila"

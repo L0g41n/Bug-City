@@ -1,0 +1,57 @@
+id: "mitte-day"
+ambience {
+  sound_clip: "mitteLoop"
+  volume: 1
+  frequency: 1
+  looping: true
+  layer: 0
+}
+ambience {
+  sound_clip: "AirCar"
+  volume: 1
+  frequency: 0.4
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "ColdWind"
+  volume: 0.3
+  frequency: 0.2
+  delay: 20
+  random_delay: 14
+  layer: 1
+}
+ambience {
+  sound_clip: "Car"
+  volume: 0.7
+  frequency: 0.4
+  delay: 10
+  random_delay: 8
+  layer: 1
+}
+ambience {
+  sound_clip: "CarHorn"
+  volume: 0.7
+  frequency: 0.3
+  delay: 3
+  random_delay: 1
+  layer: 2
+}
+ambience {
+  sound_clip: "ColdWind"
+  volume: 0.5
+  frequency: 0.4
+  delay: 16
+  random_delay: 12
+  layer: 2
+}
+ambience {
+  sound_clip: "Garbage"
+  volume: 1
+  frequency: 0.3
+  delay: 8
+  random_delay: 6
+  layer: 2
+}
+audio_bundles: "hongkong:ambient_mitte"

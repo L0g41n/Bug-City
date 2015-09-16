@@ -1,0 +1,20 @@
+idRef {
+  id: "55f778e9323137282a005d21"
+}
+ui_name: "GLOBAL - NPC - Kyle Teller"
+nodes {
+  idRef {
+    id: "55f778f2323137282a005d29"
+  }
+  index: 0
+  text: "Greetings, $(l.name)."
+  nodeType: ConversationNodeType_Simple
+}
+roots {
+  nextNodeIndex: 0
+  idRef {
+    id: "55f778e9323137282a005d21:55f778e9323137282a005d25"
+  }
+}
+default_speaker_id: "55f7753b323137282a005d1f"
+persistent_conversation: true
