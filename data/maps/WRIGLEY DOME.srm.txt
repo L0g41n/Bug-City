@@ -96005,3 +96005,13 @@ props {
     intensity: 8
   }
 }
+props {
+  name: "CZ_signage_wrigleydome"
+  gridPoint {
+    x: -16
+    y: 8
+    z: -134
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
