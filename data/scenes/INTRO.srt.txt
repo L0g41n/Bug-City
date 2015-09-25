@@ -45,6 +45,44 @@ triggers {
   }
   actions {
     ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "isNPC"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
       functionName: "Teleport Actor"
       args {
         call_value {
@@ -88,7 +126,7 @@ triggers {
             call_value {
               functionName: "Get Map Item (Region)"
               args {
-                string_value: "56056406323137d00e006b78"
+                string_value: "56058452323137581c006b5a"
               }
             }
           }
@@ -145,7 +183,7 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "55f663a23231378c0a006b50"
+    id: "56058442323137581c006b59"
   }
   elseActions {
   }
@@ -168,6 +206,89 @@ triggers {
   is_oneshot: true
 }
 triggers {
+  name: "On.Actor.Teleport"
+  events {
+    ops {
+      functionName: "On Actor Teleport"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Actor is Player Controlled"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Compare Actor Race"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Race"
+          }
+          args {
+            int_value: 8
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f65f7a3231378c0a006b37"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
   name: "Map.Music.Weather"
   events {
     ops {
@@ -183,10 +304,10 @@ triggers {
         call_value {
           functionName: "Get Map Item (Music)"
           args {
-            string_value: "HongKong_LegworkGeneric"
+            string_value: "HongKong_Sewer"
           }
           args {
-            string_value: "HongKong-Legwork-Generic"
+            string_value: "HongKong-Sewer"
           }
         }
       }
@@ -205,10 +326,74 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 100
+      }
+    }
   }
   isActive: true
   idRef {
     id: "55db8133323137cc0a000735"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Crash.Fire.Lights"
+  events {
+    ops {
+      functionName: "On Map Setup"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Light Transition"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "56058f73323137581c006e8a"
+          }
+        }
+      }
+      args {
+        string_value: "loop; bounce:15:F2461D; bounce:15:F05921; bounce:15:F48B2F; bounce:15:F2B13A; bounce:15:F1CA4B"
+      }
+    }
+    ops {
+      functionName: "Light Transition"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "560593c0323137581c006e9c"
+          }
+        }
+      }
+      args {
+        string_value: "loop; bounce:15:F2461D; bounce:15:F05921; bounce:15:F48B2F; bounce:15:F2B13A; bounce:15:F1CA4B"
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "56058f5f323137581c006e89"
   }
   elseActions {
   }
@@ -342,7 +527,7 @@ triggers {
             call_value {
               functionName: "Get Map Item (Region)"
               args {
-                string_value: "55f663823231378c0a006b4f"
+                string_value: "5605846d323137581c006b5b"
               }
             }
           }
@@ -396,17 +581,6 @@ triggers {
         }
       }
     }
-    ops {
-      functionName: "Send Event"
-      args {
-        call_value {
-          functionName: "Get Map Item (Event)"
-          args {
-            string_value: "Event.Start.Location"
-          }
-        }
-      }
-    }
   }
   isActive: true
   idRef {
@@ -449,52 +623,28 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: "On.Actor.Teleport"
+  name: "NewTrigger"
   events {
     ops {
-      functionName: "On Actor Teleport"
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605830f323137581c006b37"
+          }
+        }
+      }
     }
   }
   conditions {
+  }
+  actions {
     ops {
-      functionName: "Actor is Player Controlled"
+      functionName: "Play Animation From Manifest"
       args {
         call_value {
-          functionName: "Specific Actor"
-          args {
-            call_value {
-              functionName: "Triggering Actor"
-            }
-          }
-          args {
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Compare Actor Race"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
+          functionName: "Get Map Item (Player)"
           args {
             int_value: 0
           }
@@ -502,144 +652,9 @@ triggers {
       }
       args {
         call_value {
-          functionName: "Get Preset Value (int)"
+          functionName: "Get Map Item (Animation)"
           args {
-            string_value: "Race"
-          }
-          args {
-            int_value: 8
-          }
-        }
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Teleport Camera To Actor"
-      args {
-        call_value {
-          functionName: "Triggering Actor"
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "55f65f7a3231378c0a006b37"
-  }
-  elseActions {
-  }
-  is_oneshot: false
-}
-triggers {
-  name: "Start.Location.WrigleyDome"
-  events {
-    ops {
-      functionName: "Get Map Item (Event)"
-      args {
-        string_value: "Event.Start.Location"
-      }
-    }
-  }
-  conditions {
-    ops {
-      functionName: "Comparison (string)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (string)"
-          args {
-          }
-          args {
-            string_value: "WorldMap_Origin"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        string_value: "Wrigley Dome"
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Teleport Actor"
-      args {
-        call_value {
-          functionName: "All Actors on Team"
-          args {
-            call_value {
-              functionName: "Get Preset Value (string)"
-              args {
-                string_value: "FactionList"
-              }
-              args {
-                int_value: 0
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Preset Value (int)"
-              args {
-                string_value: "AllOrAny"
-              }
-              args {
-                int_value: 0
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Map Item (SceneDimension)"
-              args {
-                string_value: "Default"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Center of Region"
-          args {
-            call_value {
-              functionName: "Get Map Item (Region)"
-              args {
-                string_value: "5605635a323137d00e006b75"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 4
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeleportMethod"
-          }
-          args {
-            int_value: 0
+            string_value: "HongKong:General/dying_idle"
           }
         }
       }
@@ -647,129 +662,7 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "56056460323137d00e006b79"
-  }
-  elseActions {
-  }
-  is_oneshot: true
-}
-triggers {
-  name: "Start.Location.DaleyGardens"
-  events {
-    ops {
-      functionName: "Get Map Item (Event)"
-      args {
-        string_value: "Event.Start.Location"
-      }
-    }
-  }
-  conditions {
-    ops {
-      functionName: "Comparison (string)"
-      args {
-        call_value {
-          functionName: "Get Story Variable (string)"
-          args {
-          }
-          args {
-            string_value: "WorldMap_Origin"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        string_value: "Daley Gardens"
-      }
-    }
-  }
-  actions {
-    ops {
-      functionName: "Teleport Actor"
-      args {
-        call_value {
-          functionName: "All Actors on Team"
-          args {
-            call_value {
-              functionName: "Get Preset Value (string)"
-              args {
-                string_value: "FactionList"
-              }
-              args {
-                int_value: 0
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Preset Value (int)"
-              args {
-                string_value: "AllOrAny"
-              }
-              args {
-                int_value: 0
-              }
-            }
-          }
-          args {
-            call_value {
-              functionName: "Get Map Item (SceneDimension)"
-              args {
-                string_value: "Default"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Center of Region"
-          args {
-            call_value {
-              functionName: "Get Map Item (Region)"
-              args {
-                string_value: "5605a9ee323137201f006b80"
-              }
-            }
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "FacingDirection"
-          }
-          args {
-            int_value: 4
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "TeleportMethod"
-          }
-          args {
-            int_value: 0
-          }
-        }
-      }
-    }
-  }
-  isActive: true
-  idRef {
-    id: "5605aa49323137201f006b83"
+    id: "56059775323137581c006ea0"
   }
   elseActions {
   }
@@ -778,17 +671,17 @@ triggers {
 regions {
   name: "Cam.Region.Main"
   position {
-    x: 6
-    y: 360
-    width: 45
-    height: 51
+    x: 47
+    y: -18
+    width: -89
+    height: 54
   }
   enabledAtStart: true
   is_camera_region: true
   is_matrix_node: false
   is_vfx_fill_region: false
   idRef {
-    id: "560562af323137d00e006b6a"
+    id: "5605830f323137581c006b37"
   }
   highlight_color {
     r: 0
@@ -805,18 +698,18 @@ regions {
     z: -0.75
   }
   directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
+    r: 0
+    g: 0
+    b: 0
     a: 1
   }
   ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
+    r: 0.035294119
+    g: 0.015686275
+    b: 0.047058824
     a: 1
   }
-  ambience_template: ""
+  ambience_template: "bc-graveyard-night"
   combat_music: ""
   default_music: ""
   loop_combat_music: true
@@ -836,75 +729,17 @@ regions {
 regions {
   name: "Cam.Region.Spawn"
   position {
-    x: -18
-    y: 396
-    width: 6
-    height: 6
+    x: 80
+    y: -26
+    width: 3
+    height: 3
   }
   enabledAtStart: true
   is_camera_region: true
   is_matrix_node: false
   is_vfx_fill_region: false
   idRef {
-    id: "560562ca323137d00e006b6b"
-  }
-  highlight_color {
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  }
-  visible_at_start: false
-  is_closet: false
-  is_teleporter_region: false
-  directional_light_dir {
-    x: -0.5
-    y: -1
-    z: -0.75
-  }
-  directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
-    a: 1
-  }
-  ambience_template: ""
-  combat_music: ""
-  default_music: ""
-  loop_combat_music: true
-  loop_default_music: false
-  no_fow_in_region: false
-  combat_intense_music: ""
-  combat_wrapup_music: ""
-  loop_combat_intense_music: true
-  loop_combat_wrapup_music: true
-  combat_intense_threshold: 5
-  combat_wrapup_threshold: 2
-  combat_fade_interval: 2
-  combat_intro_stinger: ""
-  combat_outro_stinger: ""
-  vfx_fill_prefab_name: ""
-}
-regions {
-  name: "Entrance - Wrigley Dome"
-  position {
-    x: 20
-    y: 362
-    width: 3
-    height: 3
-  }
-  enabledAtStart: true
-  is_camera_region: false
-  is_matrix_node: false
-  is_vfx_fill_region: false
-  idRef {
-    id: "5605635a323137d00e006b75"
+    id: "56058323323137581c006b38"
   }
   highlight_color {
     r: 0
@@ -952,8 +787,8 @@ regions {
 regions {
   name: "_DEBUGGER"
   position {
-    x: 17
-    y: 366
+    x: 4
+    y: 4
     width: 3
     height: 3
   }
@@ -962,7 +797,7 @@ regions {
   is_matrix_node: false
   is_vfx_fill_region: false
   idRef {
-    id: "56056406323137d00e006b78"
+    id: "56058452323137581c006b5a"
   }
   highlight_color {
     r: 0
@@ -1008,10 +843,10 @@ regions {
   vfx_fill_prefab_name: ""
 }
 regions {
-  name: "Entrance - Daley Gardens"
+  name: "On.Map.Start"
   position {
-    x: 23
-    y: 395
+    x: 4
+    y: -3
     width: 3
     height: 3
   }
@@ -1020,7 +855,7 @@ regions {
   is_matrix_node: false
   is_vfx_fill_region: false
   idRef {
-    id: "5605a9ee323137201f006b80"
+    id: "5605846d323137581c006b5b"
   }
   highlight_color {
     r: 0
@@ -1068,14 +903,14 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -14
+    x: 81
     y: 0
-    z: 397
+    z: -25
   }
   orientation: ORIENTATION_S
   displayName: "0"
   idRef {
-    id: "560562f9323137d00e006b6c"
+    id: "56058346323137581c006b39"
   }
   lod: 0
   character_instance {
@@ -1088,194 +923,7 @@ characters {
     pc_spawn_number: 0
   }
 }
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -14
-    y: 0
-    z: 398
-  }
-  orientation: ORIENTATION_S
-  displayName: "1"
-  idRef {
-    id: "56056307323137d00e006b6d"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 1
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -14
-    y: 0
-    z: 399
-  }
-  orientation: ORIENTATION_S
-  displayName: "2"
-  idRef {
-    id: "5605630c323137d00e006b6e"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 2
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 397
-  }
-  orientation: ORIENTATION_S
-  displayName: "3"
-  idRef {
-    id: "56056314323137d00e006b6f"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 3
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 398
-  }
-  orientation: ORIENTATION_S
-  displayName: "4"
-  idRef {
-    id: "5605631b323137d00e006b70"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 4
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -15
-    y: 0
-    z: 399
-  }
-  orientation: ORIENTATION_S
-  displayName: "5"
-  idRef {
-    id: "5605631e323137d00e006b71"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 5
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -16
-    y: 0
-    z: 397
-  }
-  orientation: ORIENTATION_S
-  displayName: "6"
-  idRef {
-    id: "56056323323137d00e006b72"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 6
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -16
-    y: 0
-    z: 398
-  }
-  orientation: ORIENTATION_S
-  displayName: "7"
-  idRef {
-    id: "56056329323137d00e006b73"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 7
-  }
-}
-characters {
-  name: "system_spawner_playerSpawner"
-  gridPoint {
-    x: -16
-    y: 0
-    z: 399
-  }
-  orientation: ORIENTATION_S
-  displayName: "8"
-  idRef {
-    id: "5605632d323137d00e006b74"
-  }
-  lod: 0
-  character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
-    team_id: "Shadowrunners"
-    char_name: "PC"
-    enabled_at_start: true
-    pc_spawn_number: 8
-  }
-}
-mapEvents: "Event.Start.Location"
-senseTags: "DiscoveredWrigleyDome"
-senseTags: "DiscoveredWorldMap"
-senseTags: "DiscoveredDaleyGardens"
+senseTags: "isNPC"
 worldMapLocation {
   filename: ""
   location {
@@ -1283,9 +931,9 @@ worldMapLocation {
     y: 0
   }
 }
-mapName: "WORLD MAP"
+mapName: "INTRO"
 parentStory: ""
-scene_title: "The Containment Zone"
+scene_title: "WELCOME TO BUG CITY"
 scene_subtitle: ""
 scene_synopsis: ""
 scene_image: "loadingimage_bugcity"

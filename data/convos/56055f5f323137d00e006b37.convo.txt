@@ -140,6 +140,144 @@ nodes {
   }
   nodeType: ConversationNodeType_GM_Voice
 }
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:5605a90c323137201f006b45"
+  }
+  index: 2
+  text: "Do you wish to leave Daley Gardens and head out into the CZ?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "Daley Gardens"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WORLD MAP"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605a90c323137201f006b47"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605a90c323137201f006b49"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:5605a962323137201f006b51"
+  }
+  index: 3
+  text: "Do you wish to enter Daley Gardens?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "Daley Gardens"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "DALEY GARDENS"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605a962323137201f006b53"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605a962323137201f006b55"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
 roots {
   conditions {
     ops {
@@ -227,4 +365,92 @@ roots {
     id: "56055f5f323137d00e006b37:5605609b323137d00e006b45"
   }
   comment: "CZ ---> Wrigley Dome"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605abae323137201f006bd9"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 2
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:5605a90c323137201f006b43"
+  }
+  comment: "Daley Gardens ---> CZ"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605a9ee323137201f006b80"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 3
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:5605a962323137201f006b4f"
+  }
+  comment: "CZ ---> Daley Gardens"
 }

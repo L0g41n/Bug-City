@@ -1039,38 +1039,46 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: -7
+    x: -3
     y: 0
     z: -19
   }
   orientation: ORIENTATION_S
-  displayName: "To CZ - North"
+  displayName: "To CZ"
   idRef {
     id: "54492359633464301b0050b3"
   }
   interactionRoot {
     isEnabled: true
     interactionRadius: 1
-    interactionIcon: InteractionIcon_SceneTransition
-    interaction_info_text: "The CZ"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 102
-    y: 0
-    z: -12
-  }
-  orientation: ORIENTATION_S
-  displayName: "To CZ - South"
-  idRef {
-    id: "54494748633464301b0053f5"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Evaluate Turn Mode in Dimension"
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "TurnBasedOrFreeMove"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (SceneDimension)"
+            args {
+              string_value: "Default"
+            }
+          }
+        }
+      }
+    }
+    conversationPoint {
+      conversationID: "56055f5f323137d00e006b37"
+      turnToFace: false
+    }
     interactionIcon: InteractionIcon_SceneTransition
     interaction_info_text: "The CZ"
   }

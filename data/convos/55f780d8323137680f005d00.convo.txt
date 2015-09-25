@@ -1,7 +1,7 @@
 idRef {
   id: "55f780d8323137680f005d00"
 }
-ui_name: "GLOBAL - NPC - SeeksTheMoon"
+ui_name: "GLOBAL - NPC - Seeks The Moon"
 nodes {
   idRef {
     id: "55f780fa323137680f005d08"

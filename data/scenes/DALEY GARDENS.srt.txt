@@ -1,3 +1,1460 @@
+triggers {
+  name: "_DEBUGGER"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "_DEBUGGER"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "isNPC"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "All Actors on Team"
+          args {
+            call_value {
+              functionName: "Get Preset Value (string)"
+              args {
+                string_value: "FactionList"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Map Item (SceneDimension)"
+              args {
+                string_value: "Default"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5605ad89323137201f006c08"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 4
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Suspend Team\'s Turn"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "_DEBUGGER"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f663a23231378c0a006b50"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "<!-- BEGIN ON MAP SETUP -->"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "55db7f51323137cc0a000733"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "Map.Music.Weather"
+  events {
+    ops {
+      functionName: "On Map Setup"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "HongKong_LegworkGeneric"
+          }
+          args {
+            string_value: "HongKong-Legwork-Generic"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        int_value: 100
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55db8133323137cc0a000735"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "On.Map.Start"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (bool)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "_DEBUGGER"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Actor In Passive Mode"
+      args {
+        call_value {
+          functionName: "All Actors With Tag"
+          args {
+            call_value {
+              functionName: "Get Map Item (SenseTagList)"
+              args {
+                string_value: "isNPC"
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "All Actors on Team"
+          args {
+            call_value {
+              functionName: "Get Preset Value (string)"
+              args {
+                string_value: "FactionList"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Preset Value (int)"
+              args {
+                string_value: "AllOrAny"
+              }
+              args {
+                int_value: 0
+              }
+            }
+          }
+          args {
+            call_value {
+              functionName: "Get Map Item (SceneDimension)"
+              args {
+                string_value: "Default"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "5605ad32323137201f006c05"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 4
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Suspend Team\'s Turn"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "FactionList"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (SceneDimension)"
+          args {
+            string_value: "Default"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f663553231378c0a006b4e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "<!-- END ON MAP SETUP -->"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "55db812b323137cc0a000734"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: " "
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "55db8152323137cc0a000736"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "<!-- BEGIN LOCATIONS -->"
+  events {
+  }
+  conditions {
+  }
+  actions {
+  }
+  isActive: false
+  idRef {
+    id: "55f661773231378c0a006b3f"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "On.Actor.Teleport"
+  events {
+    ops {
+      functionName: "On Actor Teleport"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Actor is Player Controlled"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Compare Actor Race"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Race"
+          }
+          args {
+            int_value: 8
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f65f7a3231378c0a006b37"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+triggers {
+  name: "OUTSIDE.ENTER"
+  events {
+    ops {
+      functionName: "On Region Enter"
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605abae323137201f006bd9"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Actor is Player Controlled"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Compare Actor Race"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Race"
+          }
+          args {
+            int_value: 8
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Screen Label"
+      args {
+        string_value: "Location"
+      }
+      args {
+        string_value: "Daley Gardens - Outside"
+      }
+    }
+    ops {
+      functionName: "Set Environmental Effect Amount"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "EnvironmentalEffects"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        int_value: 100
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "55f661933231378c0a006b41"
+  }
+  elseActions {
+  }
+  is_oneshot: false
+}
+regions {
+  name: "Cam.Region.Outside"
+  position {
+    x: -13
+    y: -52
+    width: 109
+    height: 125
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605abae323137201f006bd9"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.Tenement.Floor.01"
+  position {
+    x: 97
+    y: -90
+    width: -30
+    height: -35
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ac43323137201f006bda"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.Tenement.Floor.02"
+  position {
+    x: 47
+    y: -104
+    width: -39
+    height: -35
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ac70323137201f006bdb"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.Tenement.Roof.01"
+  position {
+    x: -21
+    y: -117
+    width: -22
+    height: -22
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ac9b323137201f006bdc"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.Tenement.Roof.02"
+  position {
+    x: -49
+    y: -107
+    width: -22
+    height: -22
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605acb5323137201f006bdd"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Entrance - Daley Gardens"
+  position {
+    x: -4
+    y: -20
+    width: 3
+    height: 3
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ad32323137201f006c05"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.PC.Spawn"
+  position {
+    x: -35
+    y: 5
+    width: 6
+    height: 6
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ad66323137201f006c06"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "Cam.Region.NPC.Spawn"
+  position {
+    x: -52
+    y: 2
+    width: 9
+    height: 9
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ad7a323137201f006c07"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+regions {
+  name: "_DEBUGGER"
+  position {
+    x: 6
+    y: -8
+    width: 3
+    height: 3
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  is_matrix_node: false
+  is_vfx_fill_region: false
+  idRef {
+    id: "5605ad89323137201f006c08"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_closet: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+  no_fow_in_region: false
+  combat_intense_music: ""
+  combat_wrapup_music: ""
+  loop_combat_intense_music: true
+  loop_combat_wrapup_music: true
+  combat_intense_threshold: 5
+  combat_wrapup_threshold: 2
+  combat_fade_interval: 2
+  combat_intro_stinger: ""
+  combat_outro_stinger: ""
+  vfx_fill_prefab_name: ""
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -31
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  displayName: "0"
+  idRef {
+    id: "5605ab44323137201f006bd0"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 0
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -31
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  displayName: "1"
+  idRef {
+    id: "5605ab4f323137201f006bd1"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 1
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -31
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  displayName: "2"
+  idRef {
+    id: "5605ab54323137201f006bd2"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 2
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  displayName: "3"
+  idRef {
+    id: "5605ab58323137201f006bd3"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 3
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  displayName: "4"
+  idRef {
+    id: "5605ab5c323137201f006bd4"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 4
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -32
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  displayName: "5"
+  idRef {
+    id: "5605ab62323137201f006bd5"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 5
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  displayName: "6"
+  idRef {
+    id: "5605ab66323137201f006bd6"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 6
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  displayName: "7"
+  idRef {
+    id: "5605ab6b323137201f006bd7"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 7
+  }
+}
+characters {
+  name: "system_spawner_playerSpawner"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  displayName: "8"
+  idRef {
+    id: "5605ab70323137201f006bd8"
+  }
+  lod: 0
+  character_instance {
+    character_mod {
+      archetypeName: "Player"
+    }
+    team_id: "Shadowrunners"
+    char_name: "PC"
+    enabled_at_start: true
+    pc_spawn_number: 8
+  }
+}
+senseTags: "isNPC"
 worldMapLocation {
   filename: ""
   location {
@@ -7,10 +1464,10 @@ worldMapLocation {
 }
 mapName: "DALEY GARDENS"
 parentStory: ""
-scene_title: "New Scene"
+scene_title: "DALEY GARDENS"
 scene_subtitle: ""
 scene_synopsis: ""
-scene_image: ""
+scene_image: "loadingimage_bugcity"
 scene_continue_button_skip: false
 scene_restore_runner_health: false
 directional_light_dir {
@@ -65,8 +1522,6 @@ scene_dimensions {
   initial_alarm_state: 0
   turns_per_round: 3
 }
-character_roster {
-}
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
   prereq_description: ""
@@ -75,7 +1530,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 25
+hiring_maximum_karma: 0
 roster_overrides {
 }
 use_hiring_cost_warning: true
@@ -84,6 +1539,6 @@ override_hiring_average_cost: true
 show_equip_screen_on_scene_load: false
 is_persistant: false
 is_persistant_has_value: false
-can_move_outside_camera_regions: true
-can_start_before_triggers: true
+can_move_outside_camera_regions: false
+can_start_before_triggers: false
 can_use_team_advancement: false
