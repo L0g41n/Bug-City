@@ -1,0 +1,230 @@
+idRef {
+  id: "56055f5f323137d00e006b37"
+}
+ui_name: "GLOBAL - WORLD MAP - Travel"
+nodes {
+  idRef {
+    id: "56055f81323137d00e006b3f"
+  }
+  index: 0
+  text: "Do you wish to leave the safety of Wrigley Dome and head out into the CZ?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "Wrigley Dome"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WORLD MAP"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56055fcd323137d00e006b41"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56055fcd323137d00e006b43"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:5605609b323137d00e006b47"
+  }
+  index: 1
+  text: "Do you wish to enter Wrigley Dome?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "WorldMap_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "Wrigley Dome"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WRIGLEY DOME"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605609b323137d00e006b49"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:5605609b323137d00e006b4b"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "56056614323137d00e006b9b"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 0
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:56055f5f323137d00e006b3b"
+  }
+  comment: "Wrigley Dome ---> CZ"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605635a323137d00e006b75"
+          }
+        }
+      }
+    }
+  }
+  nextNodeIndex: 1
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:5605609b323137d00e006b45"
+  }
+  comment: "CZ ---> Wrigley Dome"
+}

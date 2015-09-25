@@ -11,6 +11,30 @@ variables {
     }
   }
 }
+variables {
+  name: "WorldMap_Destination"
+  typeName: "string"
+  defaultValue {
+    string_value: ""
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "WorldMap_Destination"
+      typeName: "string"
+    }
+  }
+}
+variables {
+  name: "WorldMap_Origin"
+  typeName: "string"
+  defaultValue {
+    string_value: ""
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "WorldMap_Origin"
+      typeName: "string"
+    }
+  }
+}
 startScene: "WRIGLEY DOME"
 allowCharacterGen: true
 resalePercent: 75
