@@ -69158,52 +69158,6 @@ props {
   gridPoint {
     x: -5
     y: 0
-    z: -5.5
-  }
-  orientation: ORIENTATION_S
-  displayName: "To CZ"
-  idRef {
-    id: "5442b9e9633464841a003f11"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    transitionPoint {
-      scene_name: "WORLD MAP"
-      confirmation_text: "Leave The Sanctum and venture out into the CZ?"
-    }
-    interaction_info_text: "The CZ"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -5
-    y: 0
-    z: -0.5
-  }
-  orientation: ORIENTATION_S
-  displayName: "To CZ"
-  idRef {
-    id: "5442ba74633464841a003f13"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    transitionPoint {
-      scene_name: "WORLD MAP"
-      confirmation_text: "Leave The Sanctum and venture out into the CZ?"
-    }
-    interaction_info_text: "The CZ"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -5
-    y: 0
     z: 4.5
   }
   orientation: ORIENTATION_S
@@ -69214,33 +69168,11 @@ props {
   interactionRoot {
     isEnabled: true
     interactionRadius: 1
-    transitionPoint {
-      scene_name: "WORLD MAP"
-      confirmation_text: "Leave The Sanctum and venture out into the CZ?"
+    conversationPoint {
+      conversationID: "56055f5f323137d00e006b37"
+      turnToFace: false
     }
-    interaction_info_text: "The CZ"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: -5
-    y: 0
-    z: 9.5
-  }
-  orientation: ORIENTATION_S
-  displayName: "To CZ"
-  idRef {
-    id: "5442ba77633464841a003f15"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    transitionPoint {
-      scene_name: "WORLD MAP"
-      confirmation_text: "Leave The Sanctum and venture out into the CZ?"
-    }
+    interactionIcon: InteractionIcon_SceneTransition
     interaction_info_text: "The CZ"
   }
   lod: 0

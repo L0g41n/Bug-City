@@ -4,7 +4,7 @@ idRef {
 ui_name: "GLOBAL - WORLD MAP - Travel"
 nodes {
   idRef {
-    id: "56055f81323137d00e006b3f"
+    id: "56055f5f323137d00e006b37:56097f77323137741d006bd3"
   }
   index: 0
   text: "Do you wish to leave the safety of Wrigley Dome and head out into the CZ?"
@@ -20,7 +20,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Origin"
+              string_value: "_GLOBAL_Origin"
             }
           }
         }
@@ -37,7 +37,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Destination"
+              string_value: "_GLOBAL_Destination"
             }
           }
         }
@@ -59,21 +59,21 @@ nodes {
     }
     nextNodeIndex: -1
     idRef {
-      id: "56055f5f323137d00e006b37:56055fcd323137d00e006b41"
+      id: "56055f5f323137d00e006b37:56097f77323137741d006bd5"
     }
   }
   branches {
     responseText: "{{GM}}Stay here{{/GM}}"
     nextNodeIndex: -1
     idRef {
-      id: "56055f5f323137d00e006b37:56055fcd323137d00e006b43"
+      id: "56055f5f323137d00e006b37:56097f77323137741d006bd7"
     }
   }
   nodeType: ConversationNodeType_GM_Voice
 }
 nodes {
   idRef {
-    id: "56055f5f323137d00e006b37:5605609b323137d00e006b47"
+    id: "56055f5f323137d00e006b37:56097f7e323137741d006bdf"
   }
   index: 1
   text: "Do you wish to enter Wrigley Dome?"
@@ -89,7 +89,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Origin"
+              string_value: "_GLOBAL_Origin"
             }
           }
         }
@@ -106,7 +106,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Destination"
+              string_value: "_GLOBAL_Destination"
             }
           }
         }
@@ -128,14 +128,14 @@ nodes {
     }
     nextNodeIndex: -1
     idRef {
-      id: "56055f5f323137d00e006b37:5605609b323137d00e006b49"
+      id: "56055f5f323137d00e006b37:56097f7e323137741d006be1"
     }
   }
   branches {
     responseText: "{{GM}}Stay here{{/GM}}"
     nextNodeIndex: -1
     idRef {
-      id: "56055f5f323137d00e006b37:5605609b323137d00e006b4b"
+      id: "56055f5f323137d00e006b37:56097f7e323137741d006be3"
     }
   }
   nodeType: ConversationNodeType_GM_Voice
@@ -158,7 +158,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Origin"
+              string_value: "_GLOBAL_Origin"
             }
           }
         }
@@ -175,7 +175,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Destination"
+              string_value: "_GLOBAL_Destination"
             }
           }
         }
@@ -227,7 +227,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Origin"
+              string_value: "_GLOBAL_Origin"
             }
           }
         }
@@ -244,7 +244,7 @@ nodes {
               string_value: "55db4343323137780400002a"
             }
             args {
-              string_value: "WorldMap_Destination"
+              string_value: "_GLOBAL_Destination"
             }
           }
         }
@@ -274,6 +274,282 @@ nodes {
     nextNodeIndex: -1
     idRef {
       id: "56055f5f323137d00e006b37:5605a962323137201f006b55"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:56098172323137741d006c4a"
+  }
+  index: 4
+  text: "Do you wish to leave the safety of Ghoultown and head out into the CZ?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "Ghoultown"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WORLD MAP"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56098172323137741d006c4c"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56098172323137741d006c4e"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:56098176323137741d006c56"
+  }
+  index: 5
+  text: "Do you wish to enter Ghoultown?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "Ghoultown"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WRIGLEY DOME"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56098176323137741d006c58"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:56098176323137741d006c5a"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:560981f0323137741d006c62"
+  }
+  index: 6
+  text: "Do you wish to leave the safety of The Sanctum and head out into the CZ?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "The Sanctum"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "WORLD MAP"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:560981f0323137741d006c64"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:560981f0323137741d006c66"
+    }
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "56055f5f323137d00e006b37:560981f5323137741d006c6e"
+  }
+  index: 7
+  text: "Do you wish to enter The Sanctum?"
+  branches {
+    responseText: "{{GM}}Travel{{/GM}}"
+    actions {
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Origin"
+            }
+          }
+        }
+        args {
+          string_value: "World Map"
+        }
+      }
+      ops {
+        functionName: "Set Variable (string)"
+        args {
+          call_value {
+            functionName: "Get Story Variable (string)"
+            args {
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "_GLOBAL_Destination"
+            }
+          }
+        }
+        args {
+          string_value: "The Santum"
+        }
+      }
+      ops {
+        functionName: "Open Scene"
+        args {
+          call_value {
+            functionName: "Get Map Item (Scene)"
+            args {
+              string_value: "THE SANCTUM"
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:560981f5323137741d006c70"
+    }
+  }
+  branches {
+    responseText: "{{GM}}Stay here{{/GM}}"
+    nextNodeIndex: -1
+    idRef {
+      id: "56055f5f323137d00e006b37:560981f5323137741d006c72"
     }
   }
   nodeType: ConversationNodeType_GM_Voice
@@ -314,11 +590,39 @@ roots {
         }
       }
     }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "WORLDMAP_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
   }
   nextNodeIndex: 0
   hideIfUnavailable: true
   idRef {
-    id: "56055f5f323137d00e006b37:56055f5f323137d00e006b3b"
+    id: "56055f5f323137d00e006b37:56097f77323137741d006bd1"
   }
   comment: "Wrigley Dome ---> CZ"
 }
@@ -358,11 +662,39 @@ roots {
         }
       }
     }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "WRIGLEYDOME_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
   }
   nextNodeIndex: 1
   hideIfUnavailable: true
   idRef {
-    id: "56055f5f323137d00e006b37:5605609b323137d00e006b45"
+    id: "56055f5f323137d00e006b37:56097f7e323137741d006bdd"
   }
   comment: "CZ ---> Wrigley Dome"
 }
@@ -400,6 +732,34 @@ roots {
             string_value: "5605abae323137201f006bd9"
           }
         }
+      }
+    }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "WORLDMAP_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
       }
     }
   }
@@ -446,6 +806,34 @@ roots {
         }
       }
     }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "DALEYGARDENS_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
   }
   nextNodeIndex: 3
   hideIfUnavailable: true
@@ -453,4 +841,292 @@ roots {
     id: "56055f5f323137d00e006b37:5605a962323137201f006b4f"
   }
   comment: "CZ ---> Daley Gardens"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "56056614323137d00e006b9b"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "WORLDMAP_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 4
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:56098172323137741d006c48"
+  }
+  comment: "Ghoultown ---> CZ"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5605635a323137d00e006b75"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "GHOULTOWN_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 5
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:56098176323137741d006c54"
+  }
+  comment: "CZ ---> Ghoultown"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "5609847b323137741d006cc9"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "WORLDMAP_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 6
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:560981f0323137741d006c60"
+  }
+  comment: "The Sanctum ---> CZ"
+}
+roots {
+  conditions {
+    ops {
+      functionName: "Evaluate If Actor is Inside Region"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "AreOrAreNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Region)"
+          args {
+            string_value: "56098503323137741d006d3f"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Comparison (int)"
+      args {
+        call_value {
+          functionName: "Get Story Variable (int)"
+          args {
+            string_value: "55db4343323137780400002a"
+          }
+          args {
+            string_value: "THESANCTUM_Progression"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "Comparison Ops"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        int_value: 1
+      }
+    }
+  }
+  nextNodeIndex: 7
+  hideIfUnavailable: true
+  idRef {
+    id: "56055f5f323137d00e006b37:560981f5323137741d006c6c"
+  }
+  comment: "CZ ---> The Sanctum"
 }

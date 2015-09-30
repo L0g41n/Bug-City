@@ -84837,39 +84837,15 @@ props {
     interactionRadius: 1
     prerequisites {
       ops {
-        functionName: "Evaluate Tag for Actor"
+        functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "All Actors on Team"
+            functionName: "Get Story Variable (int)"
             args {
-              call_value {
-                functionName: "Get Preset Value (string)"
-                args {
-                  string_value: "FactionList"
-                }
-                args {
-                  int_value: 0
-                }
-              }
+              string_value: "55db4343323137780400002a"
             }
             args {
-              call_value {
-                functionName: "Get Preset Value (int)"
-                args {
-                  string_value: "AllOrAny"
-                }
-                args {
-                  int_value: 1
-                }
-              }
-            }
-            args {
-              call_value {
-                functionName: "Get Map Item (SceneDimension)"
-                args {
-                  string_value: "Default"
-                }
-              }
+              string_value: "WORLDMAP_Progression"
             }
           }
         }
@@ -84877,20 +84853,15 @@ props {
           call_value {
             functionName: "Get Preset Value (int)"
             args {
-              string_value: "HasOrHasNot"
+              string_value: "Comparison Ops"
             }
             args {
-              int_value: 1
+              int_value: 3
             }
           }
         }
         args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "DiscoveredWorldMap"
-            }
-          }
+          int_value: 1
         }
       }
     }
@@ -95793,7 +95764,7 @@ props {
   gridPoint {
     x: -17
     y: 13
-    z: -127
+    z: -126
   }
   orientation: ORIENTATION_S
   idRef {
@@ -95931,7 +95902,7 @@ props {
 props {
   name: "haven_lighting_floodLight03"
   gridPoint {
-    x: -22.5
+    x: -22
     y: 13
     z: -121
   }
@@ -95966,7 +95937,7 @@ props {
 props {
   name: "haven_lighting_floodLight03"
   gridPoint {
-    x: -31.5
+    x: -31
     y: 13
     z: -121
   }
@@ -96001,7 +95972,7 @@ props {
 props {
   name: "haven_lighting_floodLight03"
   gridPoint {
-    x: -41.5
+    x: -41
     y: 13
     z: -121
   }
@@ -96036,7 +96007,7 @@ props {
 props {
   name: "haven_lighting_floodLight03"
   gridPoint {
-    x: -50.5
+    x: -50
     y: 13
     z: -121
   }
@@ -96076,5 +96047,57 @@ props {
     z: -134
   }
   orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "pikePlace_street_overheadWalkwayPillar01"
+  gridPoint {
+    x: -28
+    y: 13
+    z: -123
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "56096fa9323137842500022b"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_street_overheadWalkwayPillar01"
+  gridPoint {
+    x: -31
+    y: 13
+    z: -123
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "56096fac323137842500022c"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_street_overheadWalkwayPillar01"
+  gridPoint {
+    x: -19
+    y: 13
+    z: -132
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "56096fb8323137842500022d"
+  }
+  lod: 0
+}
+props {
+  name: "pikePlace_street_overheadWalkwayPillar01"
+  gridPoint {
+    x: -19
+    y: 13
+    z: -135
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "56096fb9323137842500022e"
+  }
   lod: 0
 }

@@ -12,26 +12,110 @@ variables {
   }
 }
 variables {
-  name: "WorldMap_Destination"
+  name: "_GLOBAL_Destination"
   typeName: "string"
   defaultValue {
-    string_value: ""
+    string_value: "herp"
     variableref_value {
       scope: TsVariableScope_Story
-      name: "WorldMap_Destination"
+      name: "_GLOBAL_Destination"
       typeName: "string"
     }
   }
 }
 variables {
-  name: "WorldMap_Origin"
+  name: "_GLOBAL_Origin"
   typeName: "string"
   defaultValue {
-    string_value: ""
+    string_value: "derp"
     variableref_value {
       scope: TsVariableScope_Story
-      name: "WorldMap_Origin"
+      name: "_GLOBAL_Origin"
       typeName: "string"
+    }
+  }
+}
+variables {
+  name: "DALEYGARDENS_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "DALEYGARDENS_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "GHOULTOWN_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "GHOULTOWN_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "GOOSEISLAND_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "GOOSEISLAND_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "THESANCTUM_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "THESANCTUM_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "VOLKSVILLE_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "VOLKSVILLE_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "WORLDMAP_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "WORLDMAP_Progression"
+      typeName: "int"
+    }
+  }
+}
+variables {
+  name: "WRIGLEYDOME_Progression"
+  typeName: "int"
+  defaultValue {
+    int_value: 0
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "WRIGLEYDOME_Progression"
+      typeName: "int"
     }
   }
 }

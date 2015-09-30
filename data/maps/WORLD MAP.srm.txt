@@ -1,7 +1,7 @@
-minX: -21
+minX: -22
 minZ: 360
-numX: 73
-numZ: 52
+numX: 74
+numZ: 71
 props {
   name: "barrens_ground_multiLaneNoStrip01Mid"
   gridPoint {
@@ -406,39 +406,15 @@ props {
     interactionRadius: 1
     prerequisites {
       ops {
-        functionName: "Evaluate Tag for Actor"
+        functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "All Actors on Team"
+            functionName: "Get Story Variable (int)"
             args {
-              call_value {
-                functionName: "Get Preset Value (string)"
-                args {
-                  string_value: "FactionList"
-                }
-                args {
-                  int_value: 0
-                }
-              }
+              string_value: "55db4343323137780400002a"
             }
             args {
-              call_value {
-                functionName: "Get Preset Value (int)"
-                args {
-                  string_value: "AllOrAny"
-                }
-                args {
-                  int_value: 1
-                }
-              }
-            }
-            args {
-              call_value {
-                functionName: "Get Map Item (SceneDimension)"
-                args {
-                  string_value: "Default"
-                }
-              }
+              string_value: "WRIGLEYDOME_Progression"
             }
           }
         }
@@ -446,20 +422,15 @@ props {
           call_value {
             functionName: "Get Preset Value (int)"
             args {
-              string_value: "HasOrHasNot"
+              string_value: "Comparison Ops"
             }
             args {
-              int_value: 1
+              int_value: 3
             }
           }
         }
         args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "DiscoveredWrigleyDome"
-            }
-          }
+          int_value: 1
         }
       }
     }
@@ -475,9 +446,9 @@ props {
 props {
   name: "worldmap_map_pointer"
   gridPoint {
-    x: -21
+    x: -22
     y: 0
-    z: 399
+    z: 429
   }
   orientation: ORIENTATION_S
   displayName: "Map Pointer"
@@ -490,189 +461,6 @@ props {
     dummyInteraciton {
     }
     interaction_info_text: ""
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 27
-    y: 0
-    z: 361
-  }
-  orientation: ORIENTATION_S
-  displayName: "Entrance - County Hospital"
-  idRef {
-    id: "5442ac7a633464841a003efc"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Story Variable (bool)"
-            args {
-              string_value: "51fd19e2613933781700323c"
-            }
-            args {
-              string_value: "Global_Location_CountyHospital"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    transitionPoint {
-      scene_name: "COUNTY HOSPITAL"
-      confirmation_text: "Do you wish to enter County Hospital?"
-    }
-    interaction_info_text: "County Hospital"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 27
-    y: 0
-    z: 365
-  }
-  orientation: ORIENTATION_S
-  displayName: "Entrance - The Sanctum"
-  idRef {
-    id: "5442b603633464841a003f04"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Story Variable (bool)"
-            args {
-              string_value: "51fd19e2613933781700323c"
-            }
-            args {
-              string_value: "Global_Location_TheSanctum"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    transitionPoint {
-      scene_name: "THE SANCTUM"
-      confirmation_text: "Do you wish to enter The Sanctum?"
-    }
-    interaction_info_text: "The Sanctum"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 27
-    y: 0
-    z: 370
-  }
-  orientation: ORIENTATION_S
-  displayName: "Entrance - Ghoultown"
-  idRef {
-    id: "5442b60b633464841a003f05"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (bool)"
-        args {
-          call_value {
-            functionName: "Get Story Variable (bool)"
-            args {
-              string_value: "51fd19e2613933781700323c"
-            }
-            args {
-              string_value: "Global_Location_Ghoultown"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "IsOrIsNot"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "bool"
-            }
-            args {
-              int_value: 1
-            }
-          }
-        }
-      }
-    }
-    transitionPoint {
-      scene_name: "GHOULTOWN"
-      confirmation_text: "Do you wish to enter Ghoultown?"
-    }
-    interaction_info_text: "Ghoultown"
   }
   lod: 0
 }
@@ -3985,9 +3773,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: 24
+    x: 25
     y: 0
-    z: 396
+    z: 371
   }
   orientation: ORIENTATION_S
   displayName: "Entrance - Daley Gardens"
@@ -3999,39 +3787,15 @@ props {
     interactionRadius: 1
     prerequisites {
       ops {
-        functionName: "Evaluate Tag for Actor"
+        functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "All Actors on Team"
+            functionName: "Get Story Variable (int)"
             args {
-              call_value {
-                functionName: "Get Preset Value (string)"
-                args {
-                  string_value: "FactionList"
-                }
-                args {
-                  int_value: 0
-                }
-              }
+              string_value: "55db4343323137780400002a"
             }
             args {
-              call_value {
-                functionName: "Get Preset Value (int)"
-                args {
-                  string_value: "AllOrAny"
-                }
-                args {
-                  int_value: 1
-                }
-              }
-            }
-            args {
-              call_value {
-                functionName: "Get Map Item (SceneDimension)"
-                args {
-                  string_value: "Default"
-                }
-              }
+              string_value: "DALEYGARDENS_Progression"
             }
           }
         }
@@ -4039,20 +3803,15 @@ props {
           call_value {
             functionName: "Get Preset Value (int)"
             args {
-              string_value: "HasOrHasNot"
+              string_value: "Comparison Ops"
             }
             args {
-              int_value: 1
+              int_value: 3
             }
           }
         }
         args {
-          call_value {
-            functionName: "Get Map Item (SenseTagList)"
-            args {
-              string_value: "DiscoveredDaleyGardens"
-            }
-          }
+          int_value: 1
         }
       }
     }
@@ -4068,207 +3827,14 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: 24
-    y: 0
-    z: 378
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 01"
-  idRef {
-    id: "559cbd183231375c11004259"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "Random_Event_01"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 5
-            }
-          }
-        }
-        args {
-          int_value: 25
-        }
-      }
-    }
-    interactionIcon: InteractionIcon_Summon
-    interaction_info_text: "Gun Battle"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 26
-    y: 0
-    z: 378
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 02"
-  idRef {
-    id: "559cbe363231375c1100425a"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "Random_Event_02"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 5
-            }
-          }
-        }
-        args {
-          int_value: 25
-        }
-      }
-    }
-    interactionIcon: InteractionIcon_Summon
-    interaction_info_text: "Possible Bug Activity"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 28
-    y: 0
-    z: 378
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 03"
-  idRef {
-    id: "559cbf023231375c1100425c"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "Random_Event_03"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 5
-            }
-          }
-        }
-        args {
-          int_value: 25
-        }
-      }
-    }
-    interactionIcon: InteractionIcon_Summon
-    interaction_info_text: "Screaming"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 30
-    y: 0
-    z: 378
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 04"
-  idRef {
-    id: "559cbf1e3231375c1100425e"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "Random_Event_04"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 5
-            }
-          }
-        }
-        args {
-          int_value: 25
-        }
-      }
-    }
-    interactionIcon: InteractionIcon_Summon
-    interaction_info_text: "Possible Ganger Activity"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
     x: 32
     y: 0
-    z: 378
+    z: 371
   }
   orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 05"
+  displayName: "Entrance - The Sanctum"
   idRef {
-    id: "559cbf3b3231375c11004260"
+    id: "56098503323137741d006d40"
   }
   interactionRoot {
     isEnabled: true
@@ -4278,9 +3844,12 @@ props {
         functionName: "Comparison (int)"
         args {
           call_value {
-            functionName: "Get Variable (int)"
+            functionName: "Get Story Variable (int)"
             args {
-              string_value: "Random_Event_05"
+              string_value: "55db4343323137780400002a"
+            }
+            args {
+              string_value: "THESANCTUM_Progression"
             }
           }
         }
@@ -4291,86 +3860,21 @@ props {
               string_value: "Comparison Ops"
             }
             args {
-              int_value: 5
+              int_value: 3
             }
           }
         }
         args {
-          int_value: 25
+          int_value: 1
         }
       }
     }
-    interactionIcon: InteractionIcon_Summon
-    interaction_info_text: "Possible Supply Drop"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 34
-    y: 0
-    z: 378
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isEvent"
-  displayName: "Event 06"
-  idRef {
-    id: "559cc1ae3231375c11004273"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    prerequisites {
-      ops {
-        functionName: "Comparison (int)"
-        args {
-          call_value {
-            functionName: "Get Variable (int)"
-            args {
-              string_value: "Random_Event_06"
-            }
-          }
-        }
-        args {
-          call_value {
-            functionName: "Get Preset Value (int)"
-            args {
-              string_value: "Comparison Ops"
-            }
-            args {
-              int_value: 5
-            }
-          }
-        }
-        args {
-          int_value: 10
-        }
-      }
+    conversationPoint {
+      conversationID: "56055f5f323137d00e006b37"
+      turnToFace: false
     }
-    interactionIcon: InteractionIcon_ItemPickup
-    interaction_info_text: "Peddler"
-  }
-  lod: 0
-}
-props {
-  name: "system_invisible_nonsolidProp"
-  gridPoint {
-    x: 34
-    y: 0
-    z: 388
-  }
-  orientation: ORIENTATION_S
-  GeneralTags: "isLootSite"
-  displayName: "Stuffer Shack 01"
-  idRef {
-    id: "559cc2293231375c11004277"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    interactionIcon: InteractionIcon_Inspect
-    interaction_info_text: "Stuffer Shack"
+    interactionIcon: InteractionIcon_SceneTransition
+    interaction_info_text: "The Sanctum"
   }
   lod: 0
 }
