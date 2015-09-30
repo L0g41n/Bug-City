@@ -1867,9 +1867,9 @@ props {
 props {
   name: "diveBar_tech_dancePodTop01"
   gridPoint {
-    x: 53
+    x: -25
     y: 0
-    z: -25
+    z: -20
   }
   orientation: ORIENTATION_S
   lod: 0

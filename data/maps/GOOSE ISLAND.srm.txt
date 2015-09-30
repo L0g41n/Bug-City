@@ -1,4 +1,4952 @@
-minX: 2147483647
-minZ: 2147483647
-numX: 2
-numZ: 2
+minX: -59
+minZ: -39
+numX: 95
+numZ: 58
+props {
+  name: "hub_ground_poleDockEdgeBack"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -25
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032ec"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032ed"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 6.6000137
+    y: 1
+    z: 3.3000031
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0032ef"
+  }
+  lod: 0
+}
+props {
+  name: "hub_groundDecor_fishPile01"
+  gridPoint {
+    x: -1.5
+    y: 0
+    z: -38.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f0"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f1"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wallDecoration_lifeJacket02"
+  gridPoint {
+    x: 1
+    y: 3
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0032f2"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_anchor01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f3"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull04"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: 9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0032f4"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 8.6000137
+    y: 1
+    z: 4.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f5"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f6"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck02"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f8"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032f9"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -9.7999878
+    y: 1
+    z: -21.100006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032fa"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 0.44705883
+      b: 0.12941177
+      a: 1
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "trawler_boat_01upperEdgeCorner01"
+  gridPoint {
+    x: 5.099987
+    y: 12
+    z: -7
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a0032fb"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_decal_blackNamePaint"
+  gridPoint {
+    x: 7.7999992
+    y: 2.9
+    z: -5.8999939
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032fc"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032fd"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032fe"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -0.20001221
+    y: 4
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0032ff"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wallDecoration_lifeJacket02"
+  gridPoint {
+    x: 4
+    y: 4
+    z: 1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003300"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck02"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003301"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull02"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003302"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003303"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull04"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003304"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_fishingCage02"
+  gridPoint {
+    x: -2.3999939
+    y: 0
+    z: -37.899994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003305"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_boatDeck08"
+  gridPoint {
+    x: -14.700012
+    y: 0
+    z: -24.299988
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003306"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_speedBoat01"
+  gridPoint {
+    x: 2.7999878
+    y: 0
+    z: -38.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003307"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull03"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003308"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003309"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00330a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -1.2000122
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00330b"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_steelDrums01"
+  gridPoint {
+    x: 1
+    y: 4
+    z: 8
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00330c"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00330d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_decor_shippingCrates03"
+  gridPoint {
+    x: -16
+    y: 0
+    z: -22.800003
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a00330e"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00330f"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 14
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003310"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003311"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_lighting_tableLantern"
+  gridPoint {
+    x: -9.9000015
+    y: 1
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003312"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_smallCages"
+  gridPoint {
+    x: -15
+    y: 0.4
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003313"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_netCrate01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 12
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003314"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wallDecoration_wires01"
+  gridPoint {
+    x: 3.2000122
+    y: 13
+    z: -3.2999878
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003315"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 4.7000122
+    y: 3
+    z: 5.9000092
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003317"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 14
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003318"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_crane01"
+  gridPoint {
+    x: 1.099987
+    y: 8
+    z: 1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003319"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 1.099987
+    y: 8
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00331a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00331b"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: -2.900013
+    y: 5
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00331c"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_mediumCage"
+  gridPoint {
+    x: -14.799988
+    y: 1
+    z: -21.699997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00331d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00331e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00331f"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_steelDrums02"
+  gridPoint {
+    x: 1
+    y: 4
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003320"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHullStern02"
+  gridPoint {
+    x: 5.099987
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003321"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_fishingCage01"
+  gridPoint {
+    x: -2
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003322"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdge01"
+  gridPoint {
+    x: 3.099987
+    y: 4
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003323"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_boatDeck08"
+  gridPoint {
+    x: -17.700012
+    y: 0
+    z: -24.299988
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003324"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 10
+    y: 4
+    z: 11.600006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003325"
+  }
+  lod: 0
+  light {
+    range: 15
+    color {
+      r: 0.3882353
+      g: 1
+      b: 0.87843138
+      a: 1
+    }
+    intensity: 3
+  }
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003326"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFront"
+  gridPoint {
+    x: -18.600006
+    y: 0
+    z: -24.199997
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "560b5024323137680a003327"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boatDecoration_tireBumper01"
+  gridPoint {
+    x: 8.099987
+    y: 0.79999995
+    z: 1.8999939
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003328"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 8
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003329"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boatDecoration_flagpole01"
+  gridPoint {
+    x: 1.599987
+    y: 15
+    z: -5.3999939
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00332a"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: -16.399986
+    y: 0
+    z: -20.399994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00332b"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01baseEdgeLadder"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00332c"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_smallCages"
+  gridPoint {
+    x: -14
+    y: 0.8
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00332d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_01woodDeckProw01"
+  gridPoint {
+    x: 0.09998703
+    y: 8
+    z: -15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00332e"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: 3.9999886
+    y: 8
+    z: 2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00332f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003330"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_anchorWindlass01"
+  gridPoint {
+    x: 3.4999886
+    y: 8
+    z: -10.899994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003331"
+  }
+  lod: 0
+}
+props {
+  name: "docks_decor_shippingCrates03"
+  gridPoint {
+    x: 6.7999992
+    y: 4
+    z: 10.699997
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a003332"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingCurve01"
+  gridPoint {
+    x: 7.099987
+    y: 4.1
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003333"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull04"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: 12
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003334"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003335"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003336"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 1.099987
+    y: 8
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003337"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_mediumCage"
+  gridPoint {
+    x: -13.799988
+    y: 1.4
+    z: -21.699997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003338"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003339"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00333a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 8
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00333b"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 6.6000137
+    y: 0
+    z: 3.3000031
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00333c"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFront"
+  gridPoint {
+    x: -11.600006
+    y: 0
+    z: -21.199997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00333d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 3.099987
+    y: 4
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00333f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003340"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHullStern02"
+  gridPoint {
+    x: 2.099987
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003341"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: -1.900013
+    y: 4
+    z: 13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003342"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdge02"
+  gridPoint {
+    x: 5.099987
+    y: 12
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003343"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingProw01"
+  gridPoint {
+    x: 7.099987
+    y: 8
+    z: -9
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003344"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003345"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFrontSideCorner"
+  gridPoint {
+    x: -18.600006
+    y: 0
+    z: -21.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003346"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02Theladder"
+  gridPoint {
+    x: 8.0399933
+    y: 0
+    z: 6.7899933
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003347"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: 3.099987
+    y: 8
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003348"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_netCrate01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003349"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01roof01"
+  gridPoint {
+    x: 3.099987
+    y: 15
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00334a"
+  }
+  lod: 0
+}
+props {
+  name: "hub_roof_largeTarp"
+  gridPoint {
+    x: 4.2000122
+    y: 7
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00334b"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00334c"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_prop_talismanStand"
+  gridPoint {
+    x: -12.6
+    y: 0
+    z: -21.600006
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00334d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01baseEdge02"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00334e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003350"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_tangledRope02"
+  gridPoint {
+    x: 4.2999992
+    y: 4
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003351"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 8
+    z: -2
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003352"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -0.20001221
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003353"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdge01"
+  gridPoint {
+    x: 1.099987
+    y: 4
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003354"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boatDecoration_patch01"
+  gridPoint {
+    x: 7.4999886
+    y: 1.7
+    z: -5.3000031
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003355"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01cabinEdge02"
+  gridPoint {
+    x: 1.099987
+    y: 8
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003356"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 8.6000137
+    y: 0
+    z: 4.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003357"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_smallCages"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003358"
+  }
+  lod: 0
+}
+props {
+  name: "hub_groundDecor_fishPile02"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -36.699997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003359"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_lighting_hangingLantern_lights"
+  gridPoint {
+    x: -8.9000015
+    y: 0
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00335a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_furniture_steelTable01"
+  gridPoint {
+    x: -9.6000061
+    y: 0
+    z: -23.300003
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00335b"
+  }
+  lod: 0
+}
+props {
+  name: "factory_storage_smallCages"
+  gridPoint {
+    x: -14
+    y: 0.4
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00335c"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -1.2000122
+    y: 4
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00335d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdge01"
+  gridPoint {
+    x: 4.0000114
+    y: 4
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00335f"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01baseEdgeCorner01"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -8
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a003360"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003361"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003362"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01cabinRoof01"
+  gridPoint {
+    x: 1.099987
+    y: 13
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003364"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: -14.399986
+    y: 0
+    z: -20.399994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003365"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_canoe01"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -39.800003
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003366"
+  }
+  lod: 0
+}
+props {
+  name: "hub_groundDecor_fishPile03"
+  gridPoint {
+    x: -1.7000122
+    y: 0
+    z: -37.899994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003367"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003368"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFrontSideCorner"
+  gridPoint {
+    x: -8.6000061
+    y: 0
+    z: -21.199997
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a003369"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingBroken01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: 10
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a00336a"
+  }
+  lod: 0
+}
+props {
+  name: "hub_groundDecor_fishPile02"
+  gridPoint {
+    x: -1.7999878
+    y: 0
+    z: -37.100006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00336b"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFront"
+  gridPoint {
+    x: -14.600006
+    y: 0
+    z: -21.199997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00336c"
+  }
+  lod: 0
+}
+props {
+  name: "hub_decor_dockHose02"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00336d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00336e"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boatDecoration_tireBumper01"
+  gridPoint {
+    x: 8.099987
+    y: 0.9000001
+    z: 10.800003
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00336f"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFront"
+  gridPoint {
+    x: -8.6000061
+    y: 0
+    z: -24.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003370"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 8.6000137
+    y: 0
+    z: 3.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003371"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003372"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 14
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003373"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003374"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 2.7000122
+    y: 3
+    z: 5.9000092
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003375"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_rowBoat01"
+  gridPoint {
+    x: -1.7000122
+    y: 0
+    z: -39.300003
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003376"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003378"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_lighting_tableLantern"
+  gridPoint {
+    x: -1.5
+    y: 0
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003379"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -14
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00337a"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 0.20001221
+    y: 1
+    z: -38.100006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00337b"
+  }
+  lod: 0
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 0.44705883
+      b: 0.12941177
+      a: 1
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "factory_storage_smallCages"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00337c"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: 1.1999855
+    y: 8.1
+    z: 3.1000061
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00337d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -17.200012
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00337f"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockEdgeConnectorFront"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003380"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_buckets05"
+  gridPoint {
+    x: -1
+    y: 0
+    z: -37
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003381"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdgeWindowEnd"
+  gridPoint {
+    x: -0.90001297
+    y: 11
+    z: -5
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5024323137680a003382"
+  }
+  lod: 0
+}
+props {
+  name: "hub_building_02Railingcorner01"
+  gridPoint {
+    x: 7
+    y: 4
+    z: 3.3999939
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003383"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boatDecoration_radarAttachment03"
+  gridPoint {
+    x: 2
+    y: 15
+    z: -5.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003384"
+  }
+  lod: 0
+}
+props {
+  name: "tenements_decor_steelDrums02"
+  gridPoint {
+    x: 3.4999886
+    y: 4
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003385"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHullUpper01"
+  gridPoint {
+    x: 7.0000114
+    y: 4
+    z: -2.8999939
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003386"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_01woodDeck01"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003389"
+  }
+  lod: 0
+}
+props {
+  name: "hub_decor_dockLight02"
+  gridPoint {
+    x: -7.2000122
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00338a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00338b"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_01woodDeck01"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00338c"
+  }
+  lod: 0
+}
+props {
+  name: "hub_groundDecor_walkingBoard02"
+  gridPoint {
+    x: -8.9000015
+    y: 0
+    z: -24.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00338d"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wallDecoration_lifePreserver01"
+  gridPoint {
+    x: 8
+    y: 11
+    z: -0.80000305
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00338e"
+  }
+  lod: 0
+}
+props {
+  name: "hub_decor_fishingPole04"
+  gridPoint {
+    x: -1.3000107
+    y: 0
+    z: -39
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00338f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 13
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003391"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -0.20001221
+    y: 4
+    z: 10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003393"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 8.6000137
+    y: 1
+    z: 3.3000031
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003394"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01cabinEdge01"
+  gridPoint {
+    x: 4.099987
+    y: 8
+    z: -3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003396"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003397"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck02"
+  gridPoint {
+    x: -0.90001297
+    y: 4
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a003398"
+  }
+  lod: 0
+}
+props {
+  name: "haven_floorDecoration_grunge04"
+  gridPoint {
+    x: 5.7000008
+    y: 8
+    z: -1.3999939
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a003399"
+  }
+  lod: 0
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 4
+    y: 4
+    z: 4.1000061
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00339a"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: 13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00339b"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_fishingNetWinch01"
+  gridPoint {
+    x: -0.70000076
+    y: 4
+    z: 3
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a00339c"
+  }
+  lod: 0
+}
+props {
+  name: "ares_decor_gunDisplay03"
+  gridPoint {
+    x: -9.2000046
+    y: 1
+    z: -22.199997
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00339d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00339e"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdge01"
+  gridPoint {
+    x: -0.20001221
+    y: 4
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a00339f"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01upperEdgeWindowEnd"
+  gridPoint {
+    x: 2.099987
+    y: 11
+    z: -5
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033a0"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -17.200012
+    y: 0
+    z: -23
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033a1"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: 5.7999878
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033a2"
+  }
+  lod: 0
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -10.799988
+    y: 0
+    z: -23.100006
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033a3"
+  }
+  lod: 0
+  light {
+    range: 4
+    color {
+      r: 1
+      g: 0.15294118
+      b: 0.1254902
+      a: 1
+    }
+    intensity: 7
+  }
+}
+props {
+  name: "hub_wall_woodStakes01"
+  gridPoint {
+    x: 6.0000114
+    y: 4
+    z: 4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033a4"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 5.099987
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033a5"
+  }
+  lod: 0
+}
+props {
+  name: "hub_boat_raftFront"
+  gridPoint {
+    x: -17.600006
+    y: 0
+    z: -21.199997
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033a6"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033a7"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_groundDecoration_hatch02"
+  gridPoint {
+    x: 2.099987
+    y: 4
+    z: 7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033a8"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 7.6000023
+    y: 4
+    z: 6.4000092
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "560b5024323137680a0033a9"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033ab"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033ac"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 1.099987
+    y: 4
+    z: 16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033ad"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeProw01"
+  gridPoint {
+    x: 3.099987
+    y: 0
+    z: -11.899994
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033ae"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHullStern02"
+  gridPoint {
+    x: -0.90001297
+    y: 0
+    z: 15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033af"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_flies"
+  gridPoint {
+    x: -1
+    y: -1
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SpotlightFliesEnvironment"
+  }
+  idRef {
+    id: "560b5024323137680a0033b0"
+  }
+  lod: 0
+}
+props {
+  name: "fivePhases_furniture_jarShelf01"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -24
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033b1"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railingPipe"
+  gridPoint {
+    x: -2.900013
+    y: 5
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033b2"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_ground_deck01"
+  gridPoint {
+    x: 2.099987
+    y: 8
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b3"
+  }
+  lod: 0
+}
+props {
+  name: "hub_clutter_fishingCage03"
+  gridPoint {
+    x: -1.8999939
+    y: 0
+    z: -37.300003
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b4"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeCurve01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: 0
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033b5"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b6"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b7"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wall_door01"
+  gridPoint {
+    x: 3.4999924
+    y: 8
+    z: 0.20001221
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b8"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033b9"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing02"
+  gridPoint {
+    x: -1.900013
+    y: 4
+    z: 11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033ba"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -6
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033bb"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_storage_crate03"
+  gridPoint {
+    x: -1.2000122
+    y: 4
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033bc"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_civilianPoorSleeping1"
+  gridPoint {
+    x: -0.90000153
+    y: 0
+    z: -39.199997
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "HongKong:CivilianPoorSleeping1"
+  }
+  idRef {
+    id: "560b5024323137680a0033bd"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_stairs01"
+  gridPoint {
+    x: 5.9999886
+    y: 4
+    z: 0.69999695
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033be"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_boatDeck08"
+  gridPoint {
+    x: -11.700012
+    y: 0
+    z: -24.299988
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033bf"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: -1.900013
+    y: 4
+    z: 15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033c1"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01roof02"
+  gridPoint {
+    x: 0.09998703
+    y: 15
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033c2"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHull01"
+  gridPoint {
+    x: 7.099987
+    y: 0.099999905
+    z: -2.8999939
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033c3"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_01woodDeck01"
+  gridPoint {
+    x: 5.099987
+    y: 8
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033c4"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_wall_door01"
+  gridPoint {
+    x: 4.5999908
+    y: 4.7
+    z: 2.1000061
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033c5"
+  }
+  lod: 0
+}
+props {
+  name: "nightMarket_lighting_hangingLantern_lights"
+  gridPoint {
+    x: -1.5
+    y: -2
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5024323137680a0033c6"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 8
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5024323137680a0033c7"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -58
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ca"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033cc"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033cd"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ce"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -52
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d0"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -54
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d1"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -53
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d2"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d3"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -56
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d4"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -51
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d5"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d6"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -55
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d7"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033d9"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033da"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -51
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033db"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033dc"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -55
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033dd"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -58
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033de"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -39
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033df"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -57
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e0"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -49
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e1"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -37
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e2"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e3"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e4"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e5"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -36
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e6"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e7"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -37
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e8"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -54
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033e9"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -36
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ea"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -38
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033eb"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -35
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ec"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ed"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -41
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ee"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f0"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f1"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f2"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -48
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f3"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -53
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f4"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -54
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f5"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f6"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f7"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -54
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033f8"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -37
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033fa"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -51
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033fb"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033fc"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -37
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033fe"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -34
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a0033ff"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -51
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003400"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003401"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003402"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -38
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003403"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003404"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -51
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003405"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -41
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003406"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003407"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -35
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003409"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00340a"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -52
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00340b"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00340d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00340e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00340f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -49
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003410"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -54
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003411"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003412"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -57
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003413"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003414"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003415"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003417"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -57
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003418"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003419"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -33
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341a"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341b"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341c"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -50
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00341f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -39
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003420"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003421"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -57
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003422"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003423"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -34
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003424"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003425"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003426"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -57
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003427"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003428"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003429"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: -1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00342a"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00342c"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -56
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00342d"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -40
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00342e"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -47
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a00342f"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -50
+    y: 0
+    z: 7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003430"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_grass02"
+  gridPoint {
+    x: -40
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003431"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -48
+    y: 0
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003432"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -42
+    y: 0
+    z: 3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003433"
+  }
+  lod: 0
+}
+props {
+  name: "system_invisible_solidProp"
+  gridPoint {
+    x: -59
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5120323137680a003434"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_boat_01edgeHullStern01"
+  gridPoint {
+    x: 7
+    y: 0
+    z: 14
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "trawler_deck_railing01"
+  gridPoint {
+    x: 7.099987
+    y: 4
+    z: 15
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5220323137680a003436"
+  }
+  lod: 0
+}
+props {
+  name: "trawler_deck_Ladder"
+  gridPoint {
+    x: 6.5
+    y: 0.5
+    z: 16
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 32
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a003437"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a003438"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 26
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a003439"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 23
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a00343a"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 26
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a00343b"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 23
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5359323137680a00343c"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_twoLaneWhiteSimple"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "mitte_ground_twoLaneWhiteSimple"
+  gridPoint {
+    x: 23
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b536e323137680a00343d"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 32
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5381323137680a00343e"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 26
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5382323137680a00343f"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 23
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b5383323137680a003440"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 32
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5389323137680a003441"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 29
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b5389323137680a003442"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 24
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam02"
+  gridPoint {
+    x: 26
+    y: -2
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 24
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar03"
+  gridPoint {
+    x: 27
+    y: 0
+    z: -32
+  }
+  orientation: ORIENTATION_N
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 28
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 23
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53e6323137680a003443"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 24
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53ea323137680a003444"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 29
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53eb323137680a003445"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 33
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53ee323137680a003446"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 30
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53f2323137680a003447"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 32
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b53f9323137680a003448"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 33
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b541f323137680a003449"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 28
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b541f323137680a00344a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 23
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b541f323137680a00344b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 32
+    y: -2
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5428323137680a00344c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 30
+    y: -2
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5428323137680a00344d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 29
+    y: 4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b542c323137680a00344e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 24
+    y: 4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b542c323137680a00344f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 32
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5432323137680a003450"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 30
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5435323137680a003451"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 26
+    y: -2
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5436323137680a003452"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 24
+    y: -2
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5437323137680a003453"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 24
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5442323137680a003454"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 26
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b5442323137680a003455"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 12
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003456"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 12
+    y: 4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003457"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 20
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003458"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 12
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003459"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a00345a"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 20
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b546f323137680a00345b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 14
+    y: -2
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00345c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 11
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00345d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 14
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00345e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 16
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00345f"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003460"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam02"
+  gridPoint {
+    x: 14
+    y: -2
+    z: -16
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003461"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 20
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003462"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 11
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003463"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 20
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003464"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003465"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 18
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003466"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "560b546f323137680a003467"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_twoLaneWhiteSimple"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003468"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 21
+    y: -4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003469"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_dockRailing02"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -11
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a00346a"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 18
+    y: -2
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00346b"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 12
+    y: -2
+    z: -19
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00346c"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 18
+    y: -2
+    z: -20
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00346d"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 16
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00346e"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 17
+    y: 4
+    z: -21
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a00346f"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 12
+    y: -2
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003470"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 20
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003471"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 11
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003472"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneBeam03"
+  gridPoint {
+    x: 20
+    y: -2
+    z: -18
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003473"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003474"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 12
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003475"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_cranepillar01"
+  gridPoint {
+    x: 21
+    y: -4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003476"
+  }
+  lod: 0
+}
+props {
+  name: "docks_building_craneconnect"
+  gridPoint {
+    x: 17
+    y: 4
+    z: -12
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "560b546f323137680a003477"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateFrontEdge"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -13
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003478"
+  }
+  lod: 0
+}
+props {
+  name: "hub_ground_poleDockPlateBackEdge"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -22
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a003479"
+  }
+  lod: 0
+}
+props {
+  name: "mitte_ground_twoLaneWhiteSimple"
+  gridPoint {
+    x: 17
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "560b546f323137680a00347a"
+  }
+  lod: 0
+}
